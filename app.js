@@ -1,13 +1,15 @@
 const DB_NAME = "major-acupoints";
-const DB_VERSION = 2;
+const DB_VERSION = 3;
 const PROGRESS_STORE = "progress";
 const SESSION_STORE = "sessions";
+const SETTINGS_STORE = "settings";
 
 const app = document.querySelector("#app");
 const baseUrl = import.meta.env.BASE_URL;
 let cards = [];
 let progress = new Map();
 let savedSessions = new Map();
+let enabledTypes = new Set(["경혈 이름", "적응증", "위치"]);
 let session = null;
 
 const labels = {
@@ -15,6 +17,12 @@ const labels = {
   perfect: "완벽",
   middle: "중간",
   fail: "실패",
+};
+
+const typeLabels = {
+  "경혈 이름": "이름",
+  적응증: "적응증",
+  위치: "그림",
 };
 
 async function openDatabase() {
@@ -27,10 +35,37 @@ async function openDatabase() {
       if (!request.result.objectStoreNames.contains(SESSION_STORE)) {
         request.result.createObjectStore(SESSION_STORE, { keyPath: "mode" });
       }
+      if (!request.result.objectStoreNames.contains(SETTINGS_STORE)) {
+        request.result.createObjectStore(SETTINGS_STORE, { keyPath: "key" });
+      }
     };
     request.onsuccess = () => resolve(request.result);
     request.onerror = () => reject(request.error);
   });
+}
+
+async function loadSettings() {
+  const db = await openDatabase();
+  const row = await new Promise((resolve, reject) => {
+    const request = db.transaction(SETTINGS_STORE, "readonly").objectStore(SETTINGS_STORE).get("enabledTypes");
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+  });
+  db.close();
+  if (row?.value?.length) enabledTypes = new Set(row.value);
+}
+
+async function saveSettings() {
+  const db = await openDatabase();
+  await new Promise((resolve, reject) => {
+    const request = db
+      .transaction(SETTINGS_STORE, "readwrite")
+      .objectStore(SETTINGS_STORE)
+      .put({ key: "enabledTypes", value: [...enabledTypes] });
+    request.onsuccess = resolve;
+    request.onerror = () => reject(request.error);
+  });
+  db.close();
 }
 
 async function loadProgress() {
@@ -76,6 +111,7 @@ async function saveSession() {
     cardIds: session.cards.map((card) => card.id),
     index: session.index,
     revealed: session.revealed,
+    filterKey: getFilterKey(),
     updatedAt: Date.now(),
   };
   const db = await openDatabase();
@@ -110,8 +146,13 @@ function button(label, className, onClick, attributes = {}) {
 }
 
 function getCardsFor(mode) {
-  if (mode === "all") return [...cards];
-  return cards.filter((card) => progress.get(card.id) === mode);
+  const filtered = cards.filter((card) => enabledTypes.has(card.prompt));
+  if (mode === "all") return filtered;
+  return filtered.filter((card) => progress.get(card.id) === mode);
+}
+
+function getFilterKey() {
+  return [...enabledTypes].sort().join("|");
 }
 
 function shuffleCards(items) {
@@ -127,11 +168,13 @@ function renderMenu() {
   session = null;
   const menu = document.createElement("section");
   menu.className = "menu";
+  const menuContent = document.createElement("div");
+  menuContent.className = "menu-content";
 
   const title = document.createElement("h1");
   title.className = "menu-title";
   title.textContent = "주요 경혈";
-  menu.append(title);
+  menuContent.append(title);
 
   ["all", "perfect", "middle", "fail"].forEach((mode) => {
     const row = document.createElement("div");
@@ -141,14 +184,38 @@ function renderMenu() {
     });
     const count = document.createElement("span");
     count.className = "count";
-    const saved = savedSessions.get(mode);
+    const candidate = savedSessions.get(mode);
+    const saved = candidate?.filterKey === getFilterKey() ? candidate : null;
     count.textContent = saved ? `${Math.min(saved.index + 1, saved.cardIds.length)} / ${saved.cardIds.length}` : `${getCardsFor(mode).length}`;
     item.append(count);
     row.append(item, button("처음부터", "restart-button", () => startSession(mode, true)));
-    menu.append(row);
+    menuContent.append(row);
   });
 
+  const toggles = document.createElement("div");
+  toggles.className = "type-toggles";
+  Object.entries(typeLabels).forEach(([type, label]) => {
+    toggles.append(
+      button(label, "type-toggle", () => toggleType(type), {
+        "aria-pressed": enabledTypes.has(type),
+        "data-active": enabledTypes.has(type),
+      }),
+    );
+  });
+
+  menu.append(menuContent, toggles);
   app.replaceChildren(menu);
+}
+
+async function toggleType(type) {
+  if (enabledTypes.has(type)) {
+    if (enabledTypes.size === 1) return;
+    enabledTypes.delete(type);
+  } else {
+    enabledTypes.add(type);
+  }
+  await saveSettings();
+  renderMenu();
 }
 
 async function startSession(mode, restart = false) {
@@ -158,7 +225,8 @@ async function startSession(mode, restart = false) {
     return;
   }
 
-  const saved = restart ? null : savedSessions.get(mode);
+  const candidate = restart ? null : savedSessions.get(mode);
+  const saved = candidate?.filterKey === getFilterKey() ? candidate : null;
   const byId = new Map(cards.map((card) => [card.id, card]));
   const savedCards = saved?.cardIds.map((id) => byId.get(id)).filter(Boolean);
   session = savedCards?.length
@@ -253,6 +321,7 @@ async function init() {
   cards = await response.json();
   await loadProgress();
   await loadSessions();
+  await loadSettings();
   renderMenu();
 }
 
