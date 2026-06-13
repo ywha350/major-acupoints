@@ -1,4 +1,4 @@
-const CACHE = "major-acupoints-v6";
+const CACHE = "major-acupoints-v9";
 const scope = self.registration.scope;
 const url = (path = "") => new URL(path, scope).toString();
 const CORE = [

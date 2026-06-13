@@ -1,5 +1,5 @@
 const DB_NAME = "major-acupoints";
-const DB_VERSION = 2;
+const DB_VERSION = 3;
 const PROGRESS_STORE = "progress";
 const SESSION_STORE = "sessions";
 
