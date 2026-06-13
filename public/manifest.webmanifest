@@ -1,0 +1,18 @@
+{
+  "name": "주요 경혈 플래시카드",
+  "short_name": "주요경혈",
+  "description": "주요 경혈 이미지 플래시카드",
+  "lang": "ko",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f3ef",
+  "theme_color": "#f4f3ef",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

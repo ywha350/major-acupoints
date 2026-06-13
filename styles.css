@@ -1,0 +1,235 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f3ef;
+  --surface: #fff;
+  --text: #20211f;
+  --muted: #72746f;
+  --line: #deded8;
+  --accent: #223f33;
+  --perfect: #236143;
+  --middle: #916616;
+  --fail: #98443d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  height: 100dvh;
+  margin: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font: inherit;
+}
+
+#app {
+  width: min(100%, 560px);
+  height: 100dvh;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: max(20px, env(safe-area-inset-top)) 16px max(20px, env(safe-area-inset-bottom));
+}
+
+.menu {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  gap: 10px;
+}
+
+.menu-title {
+  margin: 0 0 12px;
+  font-size: 1.35rem;
+  font-weight: 750;
+  letter-spacing: -0.025em;
+  text-align: center;
+}
+
+.menu-button,
+.back-button,
+.restart-button,
+.reveal-button,
+.grade-button {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 68px;
+  padding: 16px 18px;
+  font-weight: 650;
+  text-align: left;
+}
+
+.menu-button[data-mode="perfect"] {
+  color: var(--perfect);
+}
+
+.menu-button[data-mode="middle"] {
+  color: var(--middle);
+}
+
+.menu-button[data-mode="fail"] {
+  color: var(--fail);
+}
+
+.menu-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+}
+
+.restart-button {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+
+.restart-button {
+  min-width: 82px;
+  padding: 8px;
+}
+
+.menu-button:active,
+.back-button:active,
+.restart-button:active,
+.reveal-button:active,
+.grade-button:active {
+  transform: scale(0.985);
+}
+
+.count {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+
+.study {
+  display: grid;
+  height: 100%;
+  min-height: 0;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 12px;
+}
+
+.study-bar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.back-button {
+  width: 44px;
+  height: 44px;
+  font-size: 1.35rem;
+}
+
+.progress-track {
+  height: 5px;
+  overflow: hidden;
+  border-radius: 99px;
+  background: var(--line);
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 180ms ease;
+}
+
+.progress-label {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.card {
+  display: grid;
+  min-height: 0;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: calc(100dvh - 190px);
+  object-fit: contain;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.reveal-button {
+  grid-column: 1 / -1;
+  min-height: 56px;
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+.grade-button {
+  min-height: 56px;
+  padding: 8px 4px;
+  font-weight: 700;
+}
+
+.grade-button[data-grade="perfect"] {
+  color: var(--perfect);
+}
+
+.grade-button[data-grade="middle"] {
+  color: var(--middle);
+}
+
+.grade-button[data-grade="fail"] {
+  color: var(--fail);
+}
+
+.empty {
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+
+.empty button {
+  width: 100%;
+}
+
+:focus-visible {
+  outline: 3px solid #779688;
+  outline-offset: 2px;
+}
+
+@media (min-width: 700px) {
+  #app {
+    padding-inline: 0;
+  }
+}

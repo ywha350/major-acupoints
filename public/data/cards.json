@@ -1,0 +1,512 @@
+[
+  {
+    "id": "1781337024950",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_02.jpg",
+    "backImage": "assets/cards/acu_slide_v2_01.jpg"
+  },
+  {
+    "id": "1781337024952",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_03.jpg",
+    "backImage": "assets/cards/acu_slide_v2_01.jpg"
+  },
+  {
+    "id": "1781337024954",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_04.jpg",
+    "backImage": "assets/cards/acu_slide_v2_01.jpg"
+  },
+  {
+    "id": "1781337024956",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_06.jpg",
+    "backImage": "assets/cards/acu_slide_v2_05.jpg"
+  },
+  {
+    "id": "1781337024958",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_07.jpg",
+    "backImage": "assets/cards/acu_slide_v2_05.jpg"
+  },
+  {
+    "id": "1781337024960",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_08.jpg",
+    "backImage": "assets/cards/acu_slide_v2_05.jpg"
+  },
+  {
+    "id": "1781337024962",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_10.jpg",
+    "backImage": "assets/cards/acu_slide_v2_09.jpg"
+  },
+  {
+    "id": "1781337024964",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_11.jpg",
+    "backImage": "assets/cards/acu_slide_v2_09.jpg"
+  },
+  {
+    "id": "1781337024966",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_12.jpg",
+    "backImage": "assets/cards/acu_slide_v2_09.jpg"
+  },
+  {
+    "id": "1781337024968",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_14.jpg",
+    "backImage": "assets/cards/acu_slide_v2_13.jpg"
+  },
+  {
+    "id": "1781337024970",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_15.jpg",
+    "backImage": "assets/cards/acu_slide_v2_13.jpg"
+  },
+  {
+    "id": "1781337024972",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_16.jpg",
+    "backImage": "assets/cards/acu_slide_v2_13.jpg"
+  },
+  {
+    "id": "1781337024974",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_18.jpg",
+    "backImage": "assets/cards/acu_slide_v2_17.jpg"
+  },
+  {
+    "id": "1781337024976",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_19.jpg",
+    "backImage": "assets/cards/acu_slide_v2_17.jpg"
+  },
+  {
+    "id": "1781337024978",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_20.jpg",
+    "backImage": "assets/cards/acu_slide_v2_17.jpg"
+  },
+  {
+    "id": "1781337024980",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_22.jpg",
+    "backImage": "assets/cards/acu_slide_v2_21.jpg"
+  },
+  {
+    "id": "1781337024982",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_23.jpg",
+    "backImage": "assets/cards/acu_slide_v2_21.jpg"
+  },
+  {
+    "id": "1781337024984",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_24.jpg",
+    "backImage": "assets/cards/acu_slide_v2_21.jpg"
+  },
+  {
+    "id": "1781337024986",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_26.jpg",
+    "backImage": "assets/cards/acu_slide_v2_25.jpg"
+  },
+  {
+    "id": "1781337024988",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_27.jpg",
+    "backImage": "assets/cards/acu_slide_v2_25.jpg"
+  },
+  {
+    "id": "1781337024990",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_28.jpg",
+    "backImage": "assets/cards/acu_slide_v2_25.jpg"
+  },
+  {
+    "id": "1781337024992",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_30.jpg",
+    "backImage": "assets/cards/acu_slide_v2_29.jpg"
+  },
+  {
+    "id": "1781337024994",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_31.jpg",
+    "backImage": "assets/cards/acu_slide_v2_29.jpg"
+  },
+  {
+    "id": "1781337024996",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_32.jpg",
+    "backImage": "assets/cards/acu_slide_v2_29.jpg"
+  },
+  {
+    "id": "1781337024998",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_34.jpg",
+    "backImage": "assets/cards/acu_slide_v2_33.jpg"
+  },
+  {
+    "id": "1781337025000",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_35.jpg",
+    "backImage": "assets/cards/acu_slide_v2_33.jpg"
+  },
+  {
+    "id": "1781337025002",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_36.jpg",
+    "backImage": "assets/cards/acu_slide_v2_33.jpg"
+  },
+  {
+    "id": "1781337025004",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_38.jpg",
+    "backImage": "assets/cards/acu_slide_v2_37.jpg"
+  },
+  {
+    "id": "1781337025006",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_39.jpg",
+    "backImage": "assets/cards/acu_slide_v2_37.jpg"
+  },
+  {
+    "id": "1781337025008",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_40.jpg",
+    "backImage": "assets/cards/acu_slide_v2_37.jpg"
+  },
+  {
+    "id": "1781337025010",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_42.jpg",
+    "backImage": "assets/cards/acu_slide_v2_41.jpg"
+  },
+  {
+    "id": "1781337025012",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_43.jpg",
+    "backImage": "assets/cards/acu_slide_v2_41.jpg"
+  },
+  {
+    "id": "1781337025014",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_44.jpg",
+    "backImage": "assets/cards/acu_slide_v2_41.jpg"
+  },
+  {
+    "id": "1781337025016",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_46.jpg",
+    "backImage": "assets/cards/acu_slide_v2_45.jpg"
+  },
+  {
+    "id": "1781337025018",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_47.jpg",
+    "backImage": "assets/cards/acu_slide_v2_45.jpg"
+  },
+  {
+    "id": "1781337025020",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_48.jpg",
+    "backImage": "assets/cards/acu_slide_v2_45.jpg"
+  },
+  {
+    "id": "1781337025022",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_50.jpg",
+    "backImage": "assets/cards/acu_slide_v2_49.jpg"
+  },
+  {
+    "id": "1781337025024",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_51.jpg",
+    "backImage": "assets/cards/acu_slide_v2_49.jpg"
+  },
+  {
+    "id": "1781337025026",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_52.jpg",
+    "backImage": "assets/cards/acu_slide_v2_49.jpg"
+  },
+  {
+    "id": "1781337025028",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_54.jpg",
+    "backImage": "assets/cards/acu_slide_v2_53.jpg"
+  },
+  {
+    "id": "1781337025030",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_55.jpg",
+    "backImage": "assets/cards/acu_slide_v2_53.jpg"
+  },
+  {
+    "id": "1781337025032",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_56.jpg",
+    "backImage": "assets/cards/acu_slide_v2_53.jpg"
+  },
+  {
+    "id": "1781337025034",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_58.jpg",
+    "backImage": "assets/cards/acu_slide_v2_57.jpg"
+  },
+  {
+    "id": "1781337025036",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_59.jpg",
+    "backImage": "assets/cards/acu_slide_v2_57.jpg"
+  },
+  {
+    "id": "1781337025038",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_60.jpg",
+    "backImage": "assets/cards/acu_slide_v2_57.jpg"
+  },
+  {
+    "id": "1781337025040",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_62.jpg",
+    "backImage": "assets/cards/acu_slide_v2_61.jpg"
+  },
+  {
+    "id": "1781337025042",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_63.jpg",
+    "backImage": "assets/cards/acu_slide_v2_61.jpg"
+  },
+  {
+    "id": "1781337025044",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_64.jpg",
+    "backImage": "assets/cards/acu_slide_v2_61.jpg"
+  },
+  {
+    "id": "1781337025046",
+    "prompt": "경혈 이름",
+    "tags": [
+      "주요경혈",
+      "경혈_이름"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_66.jpg",
+    "backImage": "assets/cards/acu_slide_v2_65.jpg"
+  },
+  {
+    "id": "1781337025048",
+    "prompt": "위치",
+    "tags": [
+      "주요경혈",
+      "위치"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_67.jpg",
+    "backImage": "assets/cards/acu_slide_v2_65.jpg"
+  },
+  {
+    "id": "1781337025050",
+    "prompt": "적응증",
+    "tags": [
+      "주요경혈",
+      "적응증"
+    ],
+    "frontImage": "assets/cards/acu_slide_v2_68.jpg",
+    "backImage": "assets/cards/acu_slide_v2_65.jpg"
+  }
+]
