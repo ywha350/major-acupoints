@@ -1,5 +1,4 @@
 const DB_NAME = "major-acupoints";
-const DB_VERSION = 3;
 const PROGRESS_STORE = "progress";
 const SESSION_STORE = "sessions";
 
@@ -18,19 +17,31 @@ const labels = {
 };
 
 async function openDatabase() {
-  return new Promise((resolve, reject) => {
-    const request = indexedDB.open(DB_NAME, DB_VERSION);
-    request.onupgradeneeded = () => {
-      if (!request.result.objectStoreNames.contains(PROGRESS_STORE)) {
-        request.result.createObjectStore(PROGRESS_STORE, { keyPath: "cardId" });
-      }
-      if (!request.result.objectStoreNames.contains(SESSION_STORE)) {
-        request.result.createObjectStore(SESSION_STORE, { keyPath: "mode" });
-      }
-    };
+  const open = (version) => new Promise((resolve, reject) => {
+    const request = version ? indexedDB.open(DB_NAME, version) : indexedDB.open(DB_NAME);
+    request.onupgradeneeded = () => createStores(request.result);
     request.onsuccess = () => resolve(request.result);
     request.onerror = () => reject(request.error);
   });
+
+  const db = await open();
+  const hasRequiredStores = [PROGRESS_STORE, SESSION_STORE].every((store) =>
+    db.objectStoreNames.contains(store),
+  );
+  if (hasRequiredStores) return db;
+
+  const nextVersion = db.version + 1;
+  db.close();
+  return open(nextVersion);
+}
+
+function createStores(db) {
+  if (!db.objectStoreNames.contains(PROGRESS_STORE)) {
+    db.createObjectStore(PROGRESS_STORE, { keyPath: "cardId" });
+  }
+  if (!db.objectStoreNames.contains(SESSION_STORE)) {
+    db.createObjectStore(SESSION_STORE, { keyPath: "mode" });
+  }
 }
 
 async function loadProgress() {
@@ -250,6 +261,7 @@ async function gradeCard(grade) {
 
 async function init() {
   const response = await fetch(`${baseUrl}data/cards.json`);
+  if (!response.ok) throw new Error(`Card data request failed: ${response.status}`);
   cards = await response.json();
   await loadProgress();
   await loadSessions();
