@@ -4,7 +4,9 @@ const SESSION_STORE = "sessions";
 
 const app = document.querySelector("#app");
 const baseUrl = import.meta.env.BASE_URL;
-let cards = [];
+let decks = [];
+let activeDeck = null;
+let busy = false;
 let progress = new Map();
 let savedSessions = new Map();
 let session = null;
@@ -69,12 +71,11 @@ async function loadSessions() {
 async function saveGrade(cardId, grade) {
   const db = await openDatabase();
   await new Promise((resolve, reject) => {
-    const request = db
-      .transaction(PROGRESS_STORE, "readwrite")
-      .objectStore(PROGRESS_STORE)
-      .put({ cardId, grade, updatedAt: Date.now() });
-    request.onsuccess = resolve;
-    request.onerror = () => reject(request.error);
+    const transaction = db.transaction(PROGRESS_STORE, "readwrite");
+    transaction.objectStore(PROGRESS_STORE).put({ cardId, grade, updatedAt: Date.now() });
+    transaction.oncomplete = resolve;
+    transaction.onerror = () => reject(transaction.error);
+    transaction.onabort = () => reject(transaction.error);
   });
   db.close();
   progress.set(cardId, grade);
@@ -83,17 +84,21 @@ async function saveGrade(cardId, grade) {
 async function saveSession() {
   if (!session) return;
   const row = {
-    mode: session.mode,
+    mode: sessionKey(session.deckId, session.mode),
+    deckId: session.deckId,
     cardIds: session.cards.map((card) => card.id),
     index: session.index,
     revealed: session.revealed,
+    chosenAnswer: session.chosenAnswer,
     updatedAt: Date.now(),
   };
   const db = await openDatabase();
   await new Promise((resolve, reject) => {
-    const request = db.transaction(SESSION_STORE, "readwrite").objectStore(SESSION_STORE).put(row);
-    request.onsuccess = resolve;
-    request.onerror = () => reject(request.error);
+    const transaction = db.transaction(SESSION_STORE, "readwrite");
+    transaction.objectStore(SESSION_STORE).put(row);
+    transaction.oncomplete = resolve;
+    transaction.onerror = () => reject(transaction.error);
+    transaction.onabort = () => reject(transaction.error);
   });
   db.close();
   savedSessions.set(row.mode, row);
@@ -102,12 +107,50 @@ async function saveSession() {
 async function clearSession(mode) {
   const db = await openDatabase();
   await new Promise((resolve, reject) => {
-    const request = db.transaction(SESSION_STORE, "readwrite").objectStore(SESSION_STORE).delete(mode);
-    request.onsuccess = resolve;
-    request.onerror = () => reject(request.error);
+    const transaction = db.transaction(SESSION_STORE, "readwrite");
+    transaction.objectStore(SESSION_STORE).delete(mode);
+    transaction.oncomplete = resolve;
+    transaction.onerror = () => reject(transaction.error);
+    transaction.onabort = () => reject(transaction.error);
   });
   db.close();
   savedSessions.delete(mode);
+}
+
+// Keep the original deck's keys so existing learning records and sessions survive.
+function sessionKey(deckId, mode) {
+  return deckId === "acupoints" ? mode : `${deckId}:${mode}`;
+}
+
+function text(tag, className, content) {
+  const element = document.createElement(tag);
+  element.className = className;
+  element.textContent = content;
+  return element;
+}
+
+async function runAction(action) {
+  if (busy) return;
+  const previousSession = session ? { ...session } : null;
+  const previousDeck = activeDeck;
+  busy = true;
+  app.setAttribute("aria-busy", "true");
+  app.querySelectorAll("button").forEach((item) => { item.disabled = true; });
+  app.querySelector(".error-message")?.remove();
+  try {
+    await action();
+  } catch (error) {
+    session = previousSession;
+    activeDeck = previousDeck;
+    console.error(error);
+    const message = text("p", "error-message", "저장하지 못했습니다. 다시 시도해 주세요.");
+    message.setAttribute("role", "alert");
+    app.append(message);
+  } finally {
+    busy = false;
+    app.removeAttribute("aria-busy");
+    app.querySelectorAll("button").forEach((item) => { item.disabled = false; });
+  }
 }
 
 function button(label, className, onClick, attributes = {}) {
@@ -116,13 +159,59 @@ function button(label, className, onClick, attributes = {}) {
   element.className = className;
   element.textContent = label;
   Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, value));
-  element.addEventListener("click", onClick);
+  element.addEventListener("click", () => runAction(onClick));
   return element;
 }
 
+function renderShell(content) {
+  const tabs = document.createElement("nav");
+  tabs.className = "deck-tabs";
+  tabs.setAttribute("aria-label", "플래시카드 덱");
+  for (const item of [{ id: "home", name: "홈" }, ...decks]) {
+    const selected = item.id === (activeDeck?.id || "home");
+    tabs.append(button(item.name, `deck-tab${selected ? " is-active" : ""}`, () => {
+      if (item.id === "home") renderHome();
+      else {
+        activeDeck = item;
+        renderMenu();
+      }
+    }, { "aria-current": selected ? "page" : "false", "data-deck": item.id }));
+  }
+  app.replaceChildren(tabs, content);
+}
+
+function renderHome() {
+  activeDeck = null;
+  session = null;
+  const home = document.createElement("section");
+  home.className = "home";
+  home.append(
+    text("p", "eyebrow", "나의 플래시카드"),
+    text("h1", "home-title", "오늘은 어떤 덱을 공부할까요?"),
+    text("p", "home-description", "덱을 선택해 학습을 이어가세요."),
+  );
+  for (const deck of decks) {
+    const tile = button("", "deck-tile", () => {
+      activeDeck = deck;
+      renderMenu();
+    }, { "aria-label": `${deck.name} 학습하기` });
+    const studied = deck.cards.filter((card) => progress.has(card.id)).length;
+    const saved = savedSessions.get(sessionKey(deck.id, "all"));
+    tile.append(
+      text("span", "deck-type", deck.type === "ox" ? "OX 퀴즈" : "이미지 카드"),
+      text("span", "deck-name", deck.name),
+      text("span", "deck-description", deck.description),
+      text("span", "deck-count", `${deck.cards.length}장 · 학습 ${studied}장`),
+      text("span", "deck-open", saved ? "학습 중 · 덱 열기 →" : "덱 열기 →"),
+    );
+    home.append(tile);
+  }
+  renderShell(home);
+}
+
 function getCardsFor(mode) {
-  if (mode === "all") return [...cards];
-  return cards.filter((card) => progress.get(card.id) === mode);
+  if (mode === "all") return [...activeDeck.cards];
+  return activeDeck.cards.filter((card) => progress.get(card.id) === mode);
 }
 
 function shuffleCards(items) {
@@ -141,8 +230,8 @@ function renderMenu() {
 
   const title = document.createElement("h1");
   title.className = "menu-title";
-  title.textContent = "주요 경혈";
-  menu.append(title);
+  title.textContent = activeDeck.name;
+  menu.append(title, text("p", "menu-description", `${activeDeck.type === "ox" ? "OX 퀴즈" : "이미지 카드"} · ${activeDeck.cards.length}장`));
 
   ["all", "perfect", "middle", "fail"].forEach((mode) => {
     const row = document.createElement("div");
@@ -152,34 +241,39 @@ function renderMenu() {
     });
     const count = document.createElement("span");
     count.className = "count";
-    const saved = savedSessions.get(mode);
+    const saved = savedSessions.get(sessionKey(activeDeck.id, mode));
     count.textContent = saved ? `${Math.min(saved.index + 1, saved.cardIds.length)} / ${saved.cardIds.length}` : `${getCardsFor(mode).length}`;
     item.append(count);
-    row.append(item, button("처음부터", "restart-button", () => startSession(mode, true)));
+    row.append(item, button("처음부터", "restart-button", () => startSession(mode, true), {
+      "aria-label": `${labels[mode]} 처음부터`,
+    }));
     menu.append(row);
   });
 
-  app.replaceChildren(menu);
+  menu.append(text("p", "menu-help", "정답을 확인한 뒤 완벽·중간·실패로 분류하세요."));
+  renderShell(menu);
 }
 
 async function startSession(mode, restart = false) {
   const selected = getCardsFor(mode);
-  if (!selected.length) {
+  const saved = restart ? null : savedSessions.get(sessionKey(activeDeck.id, mode));
+  const byId = new Map(activeDeck.cards.map((card) => [card.id, card]));
+  const savedCards = saved?.cardIds.map((id) => byId.get(id)).filter(Boolean);
+  if (!selected.length && !savedCards?.length) {
     renderEmpty(mode);
     return;
   }
 
-  const saved = restart ? null : savedSessions.get(mode);
-  const byId = new Map(cards.map((card) => [card.id, card]));
-  const savedCards = saved?.cardIds.map((id) => byId.get(id)).filter(Boolean);
   session = savedCards?.length
     ? {
+        deckId: activeDeck.id,
         mode,
         cards: savedCards,
         index: Math.min(saved.index, savedCards.length - 1),
         revealed: saved.revealed,
+        chosenAnswer: saved.chosenAnswer || null,
       }
-    : { mode, cards: shuffleCards(selected), index: 0, revealed: false };
+    : { deckId: activeDeck.id, mode, cards: shuffleCards(selected), index: 0, revealed: false, chosenAnswer: null };
   await saveSession();
   renderCard();
 }
@@ -188,17 +282,18 @@ function renderEmpty(mode) {
   const empty = document.createElement("section");
   empty.className = "empty";
   empty.append(button(`${labels[mode]} 카드 없음 · 목록으로`, "menu-button", renderMenu));
-  app.replaceChildren(empty);
+  renderShell(empty);
 }
 
 function renderCard() {
   const card = session.cards[session.index];
+  const isOx = activeDeck.type === "ox";
   const study = document.createElement("section");
   study.className = "study";
 
   const bar = document.createElement("div");
   bar.className = "study-bar";
-  bar.append(button("‹", "back-button", renderMenu, { "aria-label": "목록으로" }));
+  bar.append(button("‹", "back-button", renderMenu, { "aria-label": "덱 목록으로" }));
 
   const track = document.createElement("div");
   track.className = "progress-track";
@@ -214,12 +309,33 @@ function renderCard() {
   bar.append(label);
 
   const cardElement = document.createElement("div");
-  cardElement.className = "card";
-  const image = document.createElement("img");
-  image.src = session.revealed ? card.backImage : card.frontImage;
-  image.alt = session.revealed ? "정답" : card.prompt;
-  cardElement.append(image);
-  if (!session.revealed) cardElement.addEventListener("click", reveal);
+  cardElement.className = isOx ? "card text-card" : "card";
+  if (isOx) {
+    cardElement.append(text("p", "eyebrow", `장부생리 · ${card.section}`), text("h1", "statement", card.prompt));
+    if (session.revealed) {
+      const answer = document.createElement("div");
+      answer.className = "answer-panel";
+      if (session.chosenAnswer) {
+        const correct = session.chosenAnswer === card.answer;
+        answer.append(text("p", `answer-result ${correct ? "correct" : "incorrect"}`,
+          `${correct ? "맞았어요" : "다시 확인해 보세요"} · 내 답 ${session.chosenAnswer}`));
+      }
+      answer.append(
+        text("p", "answer-value", `정답 ${card.answer}`),
+        text("p", "explanation", card.explanation),
+        text("p", "source", card.source),
+      );
+      cardElement.append(answer);
+    } else {
+      cardElement.append(text("p", "answer-hint", "맞으면 O, 틀리면 X를 선택하세요."));
+    }
+  } else {
+    const image = document.createElement("img");
+    image.src = `${baseUrl}${session.revealed ? card.backImage : card.frontImage}`;
+    image.alt = session.revealed ? "정답" : card.prompt;
+    cardElement.append(image);
+    if (!session.revealed) cardElement.addEventListener("click", () => runAction(() => reveal()));
+  }
 
   const actions = document.createElement("div");
   actions.className = "actions";
@@ -231,56 +347,81 @@ function renderCard() {
         }),
       );
     });
+  } else if (isOx) {
+    actions.classList.add("ox-actions");
+    for (const choice of ["O", "X"]) {
+      actions.append(button(choice, "ox-button", () => reveal(choice), {
+        "aria-label": choice === "O" ? "O · 맞다" : "X · 틀리다",
+        "data-answer": choice,
+      }));
+    }
   } else {
-    actions.append(button("정답 보기", "reveal-button", reveal));
+    actions.append(button("정답 보기", "reveal-button", () => reveal()));
   }
 
   study.append(bar, cardElement, actions);
-  app.replaceChildren(study);
+  renderShell(study);
 }
 
-function reveal() {
+async function reveal(chosenAnswer = null) {
+  if (!session || session.revealed) return;
   session.revealed = true;
-  saveSession();
+  session.chosenAnswer = chosenAnswer;
+  await saveSession();
   renderCard();
 }
 
 async function gradeCard(grade) {
+  if (!session?.revealed) return;
   const card = session.cards[session.index];
   await saveGrade(card.id, grade);
   if (session.index === session.cards.length - 1) {
-    await clearSession(session.mode);
+    await clearSession(sessionKey(session.deckId, session.mode));
     renderMenu();
     return;
   }
   session.index += 1;
   session.revealed = false;
+  session.chosenAnswer = null;
   await saveSession();
   renderCard();
 }
 
-async function init() {
-  const response = await fetch(`${baseUrl}data/cards.json`);
+async function fetchJson(path) {
+  const response = await fetch(`${baseUrl}${path}`);
   if (!response.ok) throw new Error(`Card data request failed: ${response.status}`);
-  cards = await response.json();
+  return response.json();
+}
+
+async function init() {
+  const manifest = await fetchJson("data/decks.json");
+  decks = await Promise.all(manifest.map(async (deck) => ({ ...deck, cards: await fetchJson(deck.path) })));
   await loadProgress();
   await loadSessions();
-  renderMenu();
+  renderHome();
 }
 
 window.addEventListener("keydown", (event) => {
-  if (!session) return;
-  if (!session.revealed && (event.key === " " || event.key === "Enter")) {
-    event.preventDefault();
-    reveal();
+  if (!session || busy || event.repeat || event.ctrlKey || event.altKey || event.metaKey) return;
+  if (event.target.closest?.("input, textarea, select, [contenteditable='true']")) return;
+  let action;
+  if (!session.revealed) {
+    if (activeDeck.type === "ox" && ["o", "x"].includes(event.key.toLowerCase())) {
+      action = () => reveal(event.key.toUpperCase());
+    } else if (activeDeck.type === "image" && [" ", "Enter"].includes(event.key) && event.target.tagName !== "BUTTON") {
+      action = () => reveal();
+    }
+  } else if (["1", "2", "3"].includes(event.key)) {
+    action = () => gradeCard({ 1: "fail", 2: "middle", 3: "perfect" }[event.key]);
   }
-  if (session.revealed && ["1", "2", "3"].includes(event.key)) {
-    gradeCard({ 1: "fail", 2: "middle", 3: "perfect" }[event.key]);
+  if (action) {
+    event.preventDefault();
+    runAction(action);
   }
 });
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => navigator.serviceWorker.register(`${baseUrl}sw.js`));
+if (import.meta.env.PROD && "serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register(`${baseUrl}sw.js`).catch(console.error));
 }
 
 init().catch(() => {

@@ -1,7 +1,7 @@
 {
-  "name": "주요 경혈 플래시카드",
+  "name": "주요경혈 · 장부생리 암기",
   "short_name": "주요경혈",
-  "description": "주요 경혈 이미지 플래시카드",
+  "description": "주요경혈 이미지 카드와 장부생리 OX 퀴즈를 덱별로 학습하는 암기 앱",
   "lang": "ko",
   "start_url": "./",
   "display": "standalone",

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "acupoints",
+    "name": "주요경혈",
+    "description": "경혈 이름 · 위치 · 적응증",
+    "type": "image",
+    "path": "data/cards.json"
+  },
+  {
+    "id": "jangbu",
+    "name": "장부생리",
+    "description": "총론 · 간 · 심 · 비 · 폐 · 신 · 종합 함정",
+    "type": "ox",
+    "path": "data/jangbu.json"
+  }
+]
