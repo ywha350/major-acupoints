@@ -334,14 +334,16 @@ function renderCard() {
       cardElement.append(text("p", "answer-hint", "맞으면 O, 틀리면 X를 선택하세요."));
     }
   } else if (activeDeck.type === "text") {
-    cardElement.append(text("p", "eyebrow", activeDeck.name), text("h1", "statement", card.prompt));
+    // A reversed deck shows the English term first and the Korean meaning behind it.
+    const [front, back] = activeDeck.reversed ? [card.answer, card.prompt] : [card.prompt, card.answer];
+    cardElement.append(text("p", "eyebrow", activeDeck.name), text("h1", "statement", front));
     if (session.revealed) {
       const answer = document.createElement("div");
       answer.className = "answer-panel";
-      answer.append(text("p", "answer-value", card.answer), text("p", "explanation", card.explanation), text("p", "source", card.source));
+      answer.append(text("p", "answer-value", back), text("p", "explanation", card.explanation), text("p", "source", card.source));
       cardElement.append(answer);
     } else {
-      cardElement.append(text("p", "answer-hint", "영어 용어를 떠올린 뒤 정답을 확인하세요."));
+      cardElement.append(text("p", "answer-hint", activeDeck.reversed ? "한국어 뜻을 떠올린 뒤 정답을 확인하세요." : "영어 용어를 떠올린 뒤 정답을 확인하세요."));
       cardElement.addEventListener("click", () => runAction(() => reveal()));
     }
   } else {

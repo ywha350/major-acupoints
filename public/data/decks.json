@@ -37,22 +37,25 @@
   {
     "id": "kimyangseok-a",
     "name": "김양석 의학용어 A · 핵심",
-    "description": "강의 핵심·반복 강조 용어 · 한국어 → 영어·개념",
+    "description": "강의 핵심·반복 강조 용어 · 영어 → 한국어·개념",
     "type": "text",
+    "reversed": true,
     "path": "data/kimyangseok-a.json"
   },
   {
     "id": "kimyangseok-b",
     "name": "김양석 의학용어 B · 중요",
-    "description": "본문 이해에 필요한 주요 세부 용어 · 한국어 → 영어·개념",
+    "description": "본문 이해에 필요한 주요 세부 용어 · 영어 → 한국어·개념",
     "type": "text",
+    "reversed": true,
     "path": "data/kimyangseok-b.json"
   },
   {
     "id": "kimyangseok-c",
     "name": "김양석 의학용어 C · 보충",
-    "description": "세부 약물·효소·도해 용어 · 한국어 → 영어·개념",
+    "description": "세부 약물·효소·도해 용어 · 영어 → 한국어·개념",
     "type": "text",
+    "reversed": true,
     "path": "data/kimyangseok-c.json"
   }
 ]

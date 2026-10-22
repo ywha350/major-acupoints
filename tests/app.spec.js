@@ -4,6 +4,14 @@ import { readFileSync } from "node:fs";
 const imageCards = JSON.parse(readFileSync("public/data/cards.json", "utf8"));
 const oxCards = JSON.parse(readFileSync("public/data/jangbu.json", "utf8"));
 const decks = JSON.parse(readFileSync("public/data/decks.json", "utf8"));
+const reversedDecks = new Set(decks.filter((deck) => deck.reversed).map((deck) => deck.id));
+
+// A reversed deck shows the English term on the front and the Korean meaning on the back.
+function cardFaces(deckId, card) {
+  return reversedDecks.has(deckId)
+    ? { front: card.answer, back: card.prompt }
+    : { front: card.prompt, back: card.answer };
+}
 
 async function openDeck(page, id) {
   await page.locator(`[data-deck="${id}"]`).click();
@@ -228,29 +236,29 @@ test("small screens keep navigation and answer controls accessible", async ({ pa
 for (const author of ['kimwoojin', 'kimyangseok']) {
 test(`${author} vocabulary decks reveal fields and preserve separate study records`, async ({ page }) => {
   await page.goto('/');
-  const prompts = {};
+  const fronts = {};
   for (const letter of ['a', 'b', 'c']) {
     const id = `${author}-${letter}`;
     const cards = JSON.parse(readFileSync(`public/data/${id}.json`, 'utf8'));
     await openDeck(page, id);
     await startAll(page);
-    const prompt = await page.locator('.statement').textContent();
-    const card = cards.find(item => item.prompt === prompt);
+    const front = await page.locator('.statement').textContent();
+    const card = cards.find(item => cardFaces(id, item).front === front);
     await expect(page.locator('.answer-panel')).toHaveCount(0);
     await page.getByRole('button', { name: '정답 보기', exact: true }).click();
-    await expect(page.locator('.answer-value')).toHaveText(card.answer);
+    await expect(page.locator('.answer-value')).toHaveText(cardFaces(id, card).back);
     await expect(page.locator('.explanation')).toHaveText(card.explanation);
     await expect(page.locator('.source')).toHaveText(card.source);
     await page.locator('[data-grade="perfect"]').click();
     await expect(page.locator('.progress-label')).toHaveText(`2 / ${cards.length}`);
-    prompts[id] = await page.locator('.statement').textContent();
+    fronts[id] = await page.locator('.statement').textContent();
   }
   await page.reload();
-  for (const [id, prompt] of Object.entries(prompts)) {
+  for (const [id, front] of Object.entries(fronts)) {
     await openDeck(page, id);
     await expect(page.locator('[data-mode="perfect"] .count')).toHaveText('1');
     await startAll(page);
-    await expect(page.locator('.statement')).toHaveText(prompt);
+    await expect(page.locator('.statement')).toHaveText(front);
     await expect(page.locator('.answer-panel')).toHaveCount(0);
   }
   expect((await databaseRows(page, 'sessions')).map(row => row.mode).sort()).toEqual(['a', 'b', 'c'].map(letter => `${author}-${letter}:all`));
@@ -261,14 +269,16 @@ test('Kim Yangseok long answers remain readable on a narrow screen', async ({ pa
   await page.setViewportSize({ width: 320, height: 568 });
   await page.goto('/');
   for (const letter of ['a', 'b', 'c']) {
-    const cards = JSON.parse(readFileSync(`public/data/kimyangseok-${letter}.json`, 'utf8'));
-    const card = cards.reduce((longest, current) => current.answer.length + current.explanation.length + current.source.length > longest.answer.length + longest.explanation.length + longest.source.length ? current : longest);
+    const id = `kimyangseok-${letter}`;
+    const cards = JSON.parse(readFileSync(`public/data/${id}.json`, 'utf8'));
+    const backLength = (card) => cardFaces(id, card).back.length + card.explanation.length + card.source.length;
+    const card = cards.reduce((longest, current) => backLength(current) > backLength(longest) ? current : longest);
     // Resume a known long card so the layout check does not depend on shuffle order.
-    await seedSession(page, `kimyangseok-${letter}`, card.id);
+    await seedSession(page, id, card.id);
     await page.reload();
-    await openDeck(page, `kimyangseok-${letter}`);
+    await openDeck(page, id);
     await startAll(page);
-    await expect(page.locator('.answer-value')).toHaveText(card.answer);
+    await expect(page.locator('.answer-value')).toHaveText(cardFaces(id, card).back);
     const layout = await page.evaluate(() => {
       const card = document.querySelector('.card');
       card.scrollTop = card.scrollHeight;

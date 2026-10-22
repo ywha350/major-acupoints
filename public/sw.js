@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "major-acupoints-";
-const CACHE = `${CACHE_PREFIX}v13`;
+const CACHE = `${CACHE_PREFIX}v14`;
 const scope = self.registration.scope;
 const url = (path = "") => new URL(path, scope).toString();
 const CORE = [
