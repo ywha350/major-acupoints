@@ -1,0 +1,2606 @@
+[
+  {
+    "id": "kimwoojin-b:1771511200156",
+    "prompt": "위십이지장문합술",
+    "answer": "gastroduodenostomy",
+    "explanation": "위와 십이지장을 외과적으로 연결하는 수술.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200157",
+    "prompt": "심장학",
+    "answer": "cardiology",
+    "explanation": "심장 및 그 질환을 연구하는 분야.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200158",
+    "prompt": "심전도 기록",
+    "answer": "electrocardiogram",
+    "explanation": "심장의 전기활동을 기록한 결과.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200159",
+    "prompt": "호흡기계·폐학",
+    "answer": "pulmonology",
+    "explanation": "폐와 호흡기 질환을 다루는 분야.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200160",
+    "prompt": "폐부종",
+    "answer": "pulmonary edema",
+    "explanation": "폐에 비정상적으로 액체가 축적된 상태.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200161",
+    "prompt": "심혈관의",
+    "answer": "cardiovascular",
+    "explanation": "심장과 혈관에 관련된.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200162",
+    "prompt": "비뇨생식기의",
+    "answer": "urogenital",
+    "explanation": "비뇨기계와 생식기계에 관련된.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200163",
+    "prompt": "림프구",
+    "answer": "lymphocyte",
+    "explanation": "면역 반응에 관여하는 백혈구 유형.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200164",
+    "prompt": "꼬리뼈",
+    "answer": "coccyx",
+    "explanation": "척추의 가장 아래쪽에 위치한 뼈.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200165",
+    "prompt": "소화 관련 접미사",
+    "answer": "-pepsia",
+    "explanation": "소화·소화장애의 의미를 나타내는 부분.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200166",
+    "prompt": "위 관련 어근",
+    "answer": "gastr(o)-",
+    "explanation": "위(stomach)를 가리키는 어근.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200167",
+    "prompt": "포도당 관련 어근",
+    "answer": "gluc(o)-",
+    "explanation": "당·단맛을 뜻하는 어근.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200168",
+    "prompt": "소화불량",
+    "answer": "dyspepsia",
+    "explanation": "상복부 불편감 등 소화장애 증상.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200169",
+    "prompt": "위우회술",
+    "answer": "gastric bypass",
+    "explanation": "위와 장의 연결 구조를 바꾸는 수술.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200170",
+    "prompt": "글루코코르티코이드",
+    "answer": "glucocorticoid",
+    "explanation": "부신피질에서 분비되거나 합성되는 스테로이드 호르몬군.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200171",
+    "prompt": "가능한 한 빨리(약어)",
+    "answer": "ASAP (as soon as possible)",
+    "explanation": "OT에서 든 두문자어 사례.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200172",
+    "prompt": "현금자동입출금기(약어)",
+    "answer": "ATM (automated teller machine)",
+    "explanation": "두문자어 형식을 설명하기 위한 비의학 사례.",
+    "source": "김우진 교수 | PPT 11-19쪽 | 어근과 약어 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_1"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200173",
+    "prompt": "생물 개체",
+    "answer": "organism",
+    "explanation": "기관계들이 결합해 생명활동을 수행하는 한 개체.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200174",
+    "prompt": "분자",
+    "answer": "molecule",
+    "explanation": "두 개 이상의 원자가 결합한 화학적 단위.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200175",
+    "prompt": "원자",
+    "answer": "atom",
+    "explanation": "물질을 이루는 원소의 기본 입자.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200176",
+    "prompt": "이온",
+    "answer": "ion",
+    "explanation": "전기적 전하를 띠는 원자 또는 분자.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200177",
+    "prompt": "칼륨",
+    "answer": "potassium (K⁺)",
+    "explanation": "막전위 등 세포기능과 관련된 주요 양이온.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200178",
+    "prompt": "마그네슘",
+    "answer": "magnesium (Mg²⁺)",
+    "explanation": "효소·ATP 관련 반응에 관여하는 이온.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200179",
+    "prompt": "단백질",
+    "answer": "protein",
+    "explanation": "아미노산의 사슬로 이루어진 다양한 기능 분자.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200180",
+    "prompt": "지질",
+    "answer": "lipid",
+    "explanation": "막 구성·에너지 저장 등에 관여하는 물질군.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200181",
+    "prompt": "인지질",
+    "answer": "phospholipid",
+    "explanation": "세포막 이중층의 주요 구성 분자.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200182",
+    "prompt": "콜레스테롤",
+    "answer": "cholesterol",
+    "explanation": "세포막 유동성 등에 관여하는 스테롤.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200183",
+    "prompt": "탄수화물",
+    "answer": "carbohydrate",
+    "explanation": "에너지원이나 구조물로 쓰이는 당류 등.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200184",
+    "prompt": "포도당",
+    "answer": "glucose",
+    "explanation": "세포의 주요 에너지원.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200185",
+    "prompt": "전해질",
+    "answer": "electrolyte",
+    "explanation": "물속에서 이온으로 존재해 신호·삼투 조절에 관여.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200186",
+    "prompt": "단백질 합성",
+    "answer": "protein synthesis",
+    "explanation": "유전정보를 이용해 단백질을 만드는 과정.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200187",
+    "prompt": "메신저 RNA",
+    "answer": "messenger RNA (mRNA)",
+    "explanation": "단백질 합성을 위해 유전정보를 전달하는 RNA.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200188",
+    "prompt": "분비소포",
+    "answer": "secretory vesicle",
+    "explanation": "세포 밖으로 분비할 물질을 담는 소포.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200189",
+    "prompt": "가수분해효소",
+    "answer": "hydrolase",
+    "explanation": "물과의 반응으로 분자를 분해하는 효소.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200190",
+    "prompt": "퍼옥시좀",
+    "answer": "peroxisome",
+    "explanation": "과산화물 처리·지방산 산화 등에 관여하는 소기관.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200191",
+    "prompt": "기질(미토콘드리아)",
+    "answer": "mitochondrial matrix",
+    "explanation": "미토콘드리아 내막으로 둘러싸인 내부 공간.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200192",
+    "prompt": "크리스타",
+    "answer": "cristae (sing. crista)",
+    "explanation": "미토콘드리아 내막이 안으로 접힌 구조.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200193",
+    "prompt": "핵소체",
+    "answer": "nucleolus",
+    "explanation": "리보솜 구성요소의 생성과 관련된 핵 속 구조.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200194",
+    "prompt": "핵질",
+    "answer": "nucleoplasm",
+    "explanation": "핵 안의 액상 물질.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200195",
+    "prompt": "미세소관",
+    "answer": "microtubule",
+    "explanation": "세포골격 중 관형 구조. PPT 직경 약 23 nm.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200196",
+    "prompt": "중간섬유",
+    "answer": "intermediate filament",
+    "explanation": "세포의 기계적 안정성에 관여. PPT 직경 약 10 nm.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200197",
+    "prompt": "미세섬유",
+    "answer": "microfilament / actin filament",
+    "explanation": "액틴으로 이뤄진 구조. PPT 직경 약 6 nm.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200198",
+    "prompt": "중심립",
+    "answer": "centriole",
+    "explanation": "미세소관 배열과 세포분열 관련 구조.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200199",
+    "prompt": "편모",
+    "answer": "flagellum (pl. flagella)",
+    "explanation": "세포를 움직이게 하는 길고 가는 돌기.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200200",
+    "prompt": "섬모",
+    "answer": "cilium (pl. cilia)",
+    "explanation": "표면에서 액체·입자를 이동시키는 짧은 돌기.",
+    "source": "김우진 교수 | PPT 20-33쪽 | 세포와 소기관 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_2"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200201",
+    "prompt": "상피",
+    "answer": "epithelium",
+    "explanation": "몸 표면 또는 기관 내부의 표면을 이루는 세포층.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200202",
+    "prompt": "흡수",
+    "answer": "absorption",
+    "explanation": "물질을 조직·세포 안으로 받아들이는 작용.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200203",
+    "prompt": "분비",
+    "answer": "secretion",
+    "explanation": "세포에서 만든 물질을 밖으로 내보내는 작용.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200204",
+    "prompt": "여과",
+    "answer": "filtration",
+    "explanation": "압력차 등에 따라 물질을 걸러내는 과정.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200205",
+    "prompt": "확산",
+    "answer": "diffusion",
+    "explanation": "농도차 등에 따라 물질이 이동하는 과정.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200206",
+    "prompt": "감각 수용",
+    "answer": "sensory reception",
+    "explanation": "자극을 감지하고 신호로 바꾸는 기능.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200207",
+    "prompt": "단층입방상피",
+    "answer": "simple cuboidal epithelium",
+    "explanation": "한 층의 입방형 세포. 신세뇨관 등에서 관찰.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200208",
+    "prompt": "단층원주상피",
+    "answer": "simple columnar epithelium",
+    "explanation": "한 층의 키 큰 세포. 위장관 등에서 관찰.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200209",
+    "prompt": "표피",
+    "answer": "epidermis",
+    "explanation": "피부 바깥층으로 장벽·보호 기능을 담당.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200210",
+    "prompt": "인두",
+    "answer": "pharynx",
+    "explanation": "코·입에서 후두·식도로 이어지는 목 통로.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200211",
+    "prompt": "식도",
+    "answer": "esophagus",
+    "explanation": "인두에서 위로 음식물을 전달하는 관.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200212",
+    "prompt": "요도",
+    "answer": "urethra",
+    "explanation": "방광에서 체외로 소변을 내보내는 통로.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200213",
+    "prompt": "질",
+    "answer": "vagina",
+    "explanation": "여성 생식기관의 근육성 통로.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200214",
+    "prompt": "내강",
+    "answer": "lumen",
+    "explanation": "관이나 기관 내부의 빈 공간.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200215",
+    "prompt": "호흡기계",
+    "answer": "respiratory system",
+    "explanation": "산소와 이산화탄소의 교환을 담당하는 기관계.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200216",
+    "prompt": "결합조직 섬유",
+    "answer": "fibers",
+    "explanation": "결합조직 세포외 기질에서 지지 역할을 하는 구조.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200217",
+    "prompt": "콜라겐",
+    "answer": "collagen",
+    "explanation": "결합조직에 인장 강도를 주는 주요 섬유 단백질.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200218",
+    "prompt": "탄력섬유",
+    "answer": "elastic fiber",
+    "explanation": "늘어났다가 원래 상태로 돌아가게 돕는 섬유.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200219",
+    "prompt": "세망섬유",
+    "answer": "reticular fiber",
+    "explanation": "그물 모양의 지지 구조를 이루는 섬유.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200220",
+    "prompt": "바탕질",
+    "answer": "ground substance",
+    "explanation": "세포외기질 중 섬유 이외의 부분.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200221",
+    "prompt": "고유결합조직",
+    "answer": "connective tissue proper",
+    "explanation": "성긴·치밀결합조직 등을 포함.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200222",
+    "prompt": "성긴결합조직",
+    "answer": "loose connective tissue",
+    "explanation": "세포와 바탕질의 비중이 상대적으로 높은 결합조직.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200223",
+    "prompt": "치밀결합조직",
+    "answer": "dense connective tissue",
+    "explanation": "콜라겐 섬유가 풍부한 결합조직.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200224",
+    "prompt": "연골",
+    "answer": "cartilage",
+    "explanation": "탄력성·지지 기능이 있는 특수 결합조직.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200225",
+    "prompt": "뼈",
+    "answer": "bone",
+    "explanation": "무기질화된 기질을 가진 단단한 결합조직.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200226",
+    "prompt": "혈액",
+    "answer": "blood",
+    "explanation": "액체 기질을 갖고 물질 운반과 방어에 관여하는 결합조직.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200227",
+    "prompt": "섬유아세포",
+    "answer": "fibroblast",
+    "explanation": "결합조직의 섬유와 바탕질을 생산하는 세포.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200228",
+    "prompt": "연골모세포",
+    "answer": "chondroblast",
+    "explanation": "연골기질을 형성하는 세포.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200229",
+    "prompt": "골모세포",
+    "answer": "osteoblast",
+    "explanation": "새로운 뼈 기질을 형성하는 세포.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200230",
+    "prompt": "골세포",
+    "answer": "osteocyte",
+    "explanation": "골조직 내부에 존재하는 성숙 세포.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200231",
+    "prompt": "힘줄",
+    "answer": "tendon",
+    "explanation": "근육과 뼈를 연결하는 치밀결합조직.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200232",
+    "prompt": "인대",
+    "answer": "ligament",
+    "explanation": "뼈와 뼈를 연결하는 치밀결합조직.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200233",
+    "prompt": "수의근",
+    "answer": "voluntary muscle",
+    "explanation": "의식적으로 수축을 조절할 수 있는 근육.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200234",
+    "prompt": "불수의근",
+    "answer": "involuntary muscle",
+    "explanation": "의식적 조절 없이도 활동하는 근육.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200235",
+    "prompt": "척수",
+    "answer": "spinal cord",
+    "explanation": "중추신경계의 일부로 신호 전달·반사를 담당.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200236",
+    "prompt": "말초신경",
+    "answer": "peripheral nerve",
+    "explanation": "뇌·척수 밖에서 정보를 전달하는 신경.",
+    "source": "김우진 교수 | PPT 35-49쪽 | 4대 조직 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_3"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200237",
+    "prompt": "방향 용어",
+    "answer": "directional term",
+    "explanation": "인체의 위치와 방향을 상대적으로 나타내는 말.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200238",
+    "prompt": "안쪽(정중선 쪽)",
+    "answer": "medial",
+    "explanation": "몸의 정중선에 가까운 쪽.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200239",
+    "prompt": "가쪽",
+    "answer": "lateral",
+    "explanation": "몸의 정중선에서 먼 쪽.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200240",
+    "prompt": "몸쪽",
+    "answer": "proximal",
+    "explanation": "사지의 몸통 또는 기시부에 가까운 쪽.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200241",
+    "prompt": "먼쪽",
+    "answer": "distal",
+    "explanation": "사지의 몸통 또는 기시부에서 먼 쪽.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200242",
+    "prompt": "얕은쪽",
+    "answer": "superficial",
+    "explanation": "몸 표면에 더 가까운 위치.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200243",
+    "prompt": "깊은쪽",
+    "answer": "deep",
+    "explanation": "몸 표면에서 더 먼 내부 위치.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200244",
+    "prompt": "등쪽체강",
+    "answer": "dorsal cavity",
+    "explanation": "머리뼈안과 척주관을 포함하는 뒤쪽 체강.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200245",
+    "prompt": "배쪽체강",
+    "answer": "ventral cavity",
+    "explanation": "흉강 및 배골반강을 포함하는 앞쪽 체강.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200246",
+    "prompt": "머리뼈안·두개강",
+    "answer": "cranial cavity",
+    "explanation": "뇌가 위치하는 체강.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200247",
+    "prompt": "척주관·척수강",
+    "answer": "spinal cavity",
+    "explanation": "척수가 위치하는 체강.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200248",
+    "prompt": "가슴안·흉강",
+    "answer": "thoracic cavity",
+    "explanation": "심장·폐 등이 자리한 가슴의 체강.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200249",
+    "prompt": "배안·복강",
+    "answer": "abdominal cavity",
+    "explanation": "위·간·창자 등 여러 장기를 포함하는 체강.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200250",
+    "prompt": "골반안·골반강",
+    "answer": "pelvic cavity",
+    "explanation": "방광·직장·생식기관 일부 등이 있는 체강.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200251",
+    "prompt": "가로막·횡격막",
+    "answer": "diaphragm",
+    "explanation": "흉강과 복강을 나누고 호흡에 관여하는 근육.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200252",
+    "prompt": "기관(기도)",
+    "answer": "trachea",
+    "explanation": "후두에서 기관지로 이어지는 기도.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200253",
+    "prompt": "기관지",
+    "answer": "bronchus (pl. bronchi)",
+    "explanation": "기관에서 갈라져 폐로 들어가는 기도.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200254",
+    "prompt": "폐",
+    "answer": "lung",
+    "explanation": "가스 교환이 이루어지는 호흡기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200255",
+    "prompt": "가슴막안·흉막강",
+    "answer": "pleural cavity",
+    "explanation": "폐를 둘러싼 흉막 사이의 잠재 공간.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200256",
+    "prompt": "심낭강",
+    "answer": "pericardial cavity",
+    "explanation": "심장을 둘러싼 심낭막 사이의 공간.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200257",
+    "prompt": "위",
+    "answer": "stomach",
+    "explanation": "음식을 저장하고 혼합·소화하는 기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200258",
+    "prompt": "간",
+    "answer": "liver",
+    "explanation": "대사·해독·담즙 생산 등을 담당하는 기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200259",
+    "prompt": "쓸개·담낭",
+    "answer": "gallbladder",
+    "explanation": "담즙을 저장·농축하는 기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200260",
+    "prompt": "지라·비장",
+    "answer": "spleen",
+    "explanation": "혈액 여과와 면역에 관여하는 림프기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200261",
+    "prompt": "이자·췌장",
+    "answer": "pancreas",
+    "explanation": "소화효소와 호르몬을 생산하는 기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200262",
+    "prompt": "작은창자·소장",
+    "answer": "small intestine",
+    "explanation": "영양분 소화·흡수의 중심 기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200263",
+    "prompt": "큰창자·대장",
+    "answer": "large intestine",
+    "explanation": "수분 흡수·대변 형성에 관여하는 장.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200264",
+    "prompt": "콩팥·신장",
+    "answer": "kidney",
+    "explanation": "혈액 여과와 소변 형성을 담당하는 기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200265",
+    "prompt": "복막",
+    "answer": "peritoneum",
+    "explanation": "복강 내벽과 복부 장기 표면을 덮는 막.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200266",
+    "prompt": "장간막",
+    "answer": "mesentery",
+    "explanation": "장 등을 매달고 혈관·신경이 지나가는 복막 주름.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200267",
+    "prompt": "대망·소망 등 복막주름",
+    "answer": "omentum (pl. omenta)",
+    "explanation": "지방·혈관 등을 포함하는 복막의 특수 주름.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200268",
+    "prompt": "내장",
+    "answer": "viscera",
+    "explanation": "체강 안에 위치한 내부 장기들.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200269",
+    "prompt": "방광",
+    "answer": "urinary bladder",
+    "explanation": "소변을 일시적으로 저장하는 기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200270",
+    "prompt": "직장",
+    "answer": "rectum",
+    "explanation": "대변이 항문으로 이동하기 전 거치는 장의 말단 부분.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200271",
+    "prompt": "자궁",
+    "answer": "uterus",
+    "explanation": "임신 시 배아·태아가 자라는 여성 생식기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200272",
+    "prompt": "치골결합",
+    "answer": "pubic symphysis",
+    "explanation": "좌우 치골이 앞쪽에서 만나는 연골관절.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200273",
+    "prompt": "우상복부 사분면",
+    "answer": "right upper quadrant (RUQ)",
+    "explanation": "복부를 네 구역으로 나눌 때 오른쪽 위 구획.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200274",
+    "prompt": "좌상복부 사분면",
+    "answer": "left upper quadrant (LUQ)",
+    "explanation": "복부를 네 구역으로 나눌 때 왼쪽 위 구획.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200275",
+    "prompt": "우하복부 사분면",
+    "answer": "right lower quadrant (RLQ)",
+    "explanation": "복부를 네 구역으로 나눌 때 오른쪽 아래 구획.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200276",
+    "prompt": "좌하복부 사분면",
+    "answer": "left lower quadrant (LLQ)",
+    "explanation": "복부를 네 구역으로 나눌 때 왼쪽 아래 구획.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200277",
+    "prompt": "맹장",
+    "answer": "cecum",
+    "explanation": "소장이 대장과 이어지는 부위의 주머니 모양 구조.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200278",
+    "prompt": "충수",
+    "answer": "appendix",
+    "explanation": "맹장에 달린 작은 관 모양 구조.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200279",
+    "prompt": "난소",
+    "answer": "ovary",
+    "explanation": "난자와 여성 성호르몬을 생성하는 생식기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200280",
+    "prompt": "난관",
+    "answer": "fallopian tube / uterine tube",
+    "explanation": "난자가 이동하고 수정이 일어날 수 있는 관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200281",
+    "prompt": "요관",
+    "answer": "ureter",
+    "explanation": "콩팥에서 방광으로 소변을 운반하는 관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200282",
+    "prompt": "십이지장",
+    "answer": "duodenum",
+    "explanation": "위 바로 아래에 이어지는 소장 첫 부분.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200283",
+    "prompt": "부신",
+    "answer": "adrenal gland",
+    "explanation": "콩팥 위쪽에 있는 호르몬 분비기관.",
+    "source": "김우진 교수 | PPT 51-64쪽 | 방향과 체강 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_7"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200284",
+    "prompt": "신체진찰",
+    "answer": "physical examination",
+    "explanation": "환자를 직접 관찰·접촉해 상태를 판단하는 검사.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200285",
+    "prompt": "공명음",
+    "answer": "resonance",
+    "explanation": "정상 폐를 타진할 때 대표적으로 들리는 소리.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200286",
+    "prompt": "고창음",
+    "answer": "tympany",
+    "explanation": "공기가 많은 장 등 복부에서 들리는 북소리 같은 타진음.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200287",
+    "prompt": "둔탁음",
+    "answer": "dullness",
+    "explanation": "간·근육 등 단단한 조직에서 들리는 약한 타진음.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200288",
+    "prompt": "이동탁음",
+    "answer": "shifting dullness",
+    "explanation": "복수에 의해 자세를 바꾸면 타진의 둔탁음 위치가 이동하는 징후.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200289",
+    "prompt": "복수",
+    "answer": "ascites",
+    "explanation": "복강 안에 비정상적으로 액체가 고인 상태.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200290",
+    "prompt": "폐렴",
+    "answer": "pneumonia",
+    "explanation": "폐에 염증이 생기는 질환.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200291",
+    "prompt": "종양",
+    "answer": "tumor",
+    "explanation": "세포의 비정상적인 증식으로 형성되는 덩어리.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200292",
+    "prompt": "경색",
+    "answer": "infarction",
+    "explanation": "혈액 공급 부족으로 조직 괴사가 생긴 상태.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200293",
+    "prompt": "청진기",
+    "answer": "stethoscope",
+    "explanation": "심음·호흡음 등을 청취하는 기구.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200294",
+    "prompt": "심음",
+    "answer": "heart sound",
+    "explanation": "판막 폐쇄 등 심장 활동에 따라 나는 소리.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200295",
+    "prompt": "호흡음",
+    "answer": "breath sound",
+    "explanation": "공기가 기도를 이동할 때 나는 소리.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200296",
+    "prompt": "장음",
+    "answer": "bowel sound / gastrointestinal sound",
+    "explanation": "위장관의 움직임에서 발생하는 소리.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200297",
+    "prompt": "맥박",
+    "answer": "pulse",
+    "explanation": "심장 박동으로 혈관에 나타나는 압력 변화.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200298",
+    "prompt": "맥박수",
+    "answer": "pulse rate",
+    "explanation": "일정 시간에 촉지되는 맥박 횟수.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200299",
+    "prompt": "맥박 리듬",
+    "answer": "heart rhythm",
+    "explanation": "심장박동 간 간격의 규칙성.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200300",
+    "prompt": "구강 체온측정",
+    "answer": "oral temperature measurement",
+    "explanation": "입을 통해 체온을 측정하는 방식.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200301",
+    "prompt": "직장 체온측정",
+    "answer": "rectal temperature measurement",
+    "explanation": "직장에서 체온을 측정하는 방식.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200302",
+    "prompt": "겨드랑 체온측정",
+    "answer": "axillary temperature measurement",
+    "explanation": "겨드랑에서 체온을 측정하는 방식.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200303",
+    "prompt": "귀 체온측정",
+    "answer": "ear temperature measurement",
+    "explanation": "귀에서 체온을 측정하는 방식.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200304",
+    "prompt": "피부 체온측정",
+    "answer": "skin temperature measurement",
+    "explanation": "피부 표면에서 체온을 측정하는 방식.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200305",
+    "prompt": "고주파 음파",
+    "answer": "high-frequency sound wave",
+    "explanation": "초음파 진단에 사용되는 고주파수 음파.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200306",
+    "prompt": "엑스선",
+    "answer": "X-ray",
+    "explanation": "물체를 통과하고 흡수 차이로 영상을 만드는 전자기파.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200307",
+    "prompt": "전리방사선",
+    "answer": "ionizing radiation",
+    "explanation": "원자에서 전자를 떼어낼 수 있는 에너지의 방사선.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200308",
+    "prompt": "단층영상",
+    "answer": "cross-sectional image / tomographic image",
+    "explanation": "특정 두께의 절단면을 나타낸 영상.",
+    "source": "김우진 교수 | PPT 65-80쪽 | 진단 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_8"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200309",
+    "prompt": "약전",
+    "answer": "pharmacopoeia",
+    "explanation": "의약품 품질·규격 등을 정한 공식 기준 문헌.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200310",
+    "prompt": "약물이상반응",
+    "answer": "adverse drug reaction",
+    "explanation": "약물 사용 후 나타나는 바람직하지 않은 반응.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200311",
+    "prompt": "심리적 의존",
+    "answer": "psychological dependence",
+    "explanation": "정서·행동적으로 약물 사용을 강하게 원하는 상태.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200312",
+    "prompt": "신체적 의존",
+    "answer": "physical dependence",
+    "explanation": "약물 사용에 적응하여 중단하면 금단 등이 생기는 상태.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200313",
+    "prompt": "만성 사용",
+    "answer": "chronic use",
+    "explanation": "약물을 장기간 반복적으로 사용하는 것.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200314",
+    "prompt": "약물 수용체",
+    "answer": "drug receptor",
+    "explanation": "약물이 결합하여 약리작용을 일으키는 표적.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200315",
+    "prompt": "말초 작용",
+    "answer": "peripheral action",
+    "explanation": "중추신경계 이외 말초조직에서 나타나는 약물 작용.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200316",
+    "prompt": "오피오이드",
+    "answer": "opioid",
+    "explanation": "오피오이드 수용체에 작용하는 진통 물질군.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200317",
+    "prompt": "덱사메타손",
+    "answer": "dexamethasone",
+    "explanation": "코르티코스테로이드 약물의 예.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200318",
+    "prompt": "코르티손",
+    "answer": "cortisone",
+    "explanation": "항염증 작용이 있는 스테로이드의 예.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200319",
+    "prompt": "프레드니손",
+    "answer": "prednisone",
+    "explanation": "염증·면역 반응을 억제하는 코르티코스테로이드.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200320",
+    "prompt": "코르티코스테로이드",
+    "answer": "corticosteroid",
+    "explanation": "부신피질 호르몬 또는 그 유사 약물군.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200321",
+    "prompt": "이부프로펜",
+    "answer": "ibuprofen",
+    "explanation": "NSAID의 하나로 진통·해열·소염 작용.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200322",
+    "prompt": "인도메타신",
+    "answer": "indomethacin",
+    "explanation": "NSAID의 하나로 염증·통증 감소에 사용.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200323",
+    "prompt": "셀레콕시브",
+    "answer": "celecoxib",
+    "explanation": "COX-2 선택성이 있는 소염진통제.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200324",
+    "prompt": "살리실산",
+    "answer": "salicylic acid",
+    "explanation": "버드나무 추출 관련 물질. 아스피린 개발의 역사적 전구체.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200325",
+    "prompt": "항혈소판 작용",
+    "answer": "antiplatelet effect",
+    "explanation": "혈소판 응집을 억제해 혈전 형성을 줄이는 작용.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200326",
+    "prompt": "위궤양",
+    "answer": "stomach ulcer / gastric ulcer",
+    "explanation": "위 점막에 깊은 손상이 발생한 상태.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200327",
+    "prompt": "위장관 출혈",
+    "answer": "gastrointestinal bleeding",
+    "explanation": "소화관에서 혈액이 나오는 상태.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200328",
+    "prompt": "천식",
+    "answer": "asthma",
+    "explanation": "기도의 가역적 협착·염증으로 호흡곤란 등이 나타나는 질환.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200329",
+    "prompt": "염증",
+    "answer": "inflammation",
+    "explanation": "손상·감염 등에 대한 생체의 방어 및 복구 반응.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_9"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200330",
+    "prompt": "혈관계",
+    "answer": "vascular system",
+    "explanation": "동맥·정맥·모세혈관으로 이루어진 운반 체계.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200331",
+    "prompt": "혈액순환",
+    "answer": "blood circulation",
+    "explanation": "심장 펌프 작용으로 혈액이 순환하는 현상.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200332",
+    "prompt": "항상성",
+    "answer": "homeostasis",
+    "explanation": "체내 환경을 일정 범위로 유지하려는 조절 상태.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200333",
+    "prompt": "심장",
+    "answer": "heart",
+    "explanation": "혈액을 폐·전신으로 순환시키는 근육성 펌프.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200334",
+    "prompt": "심낭의 벽쪽층",
+    "answer": "parietal pericardium",
+    "explanation": "심낭의 바깥쪽 면에 위치한 장막층.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200335",
+    "prompt": "심낭의 내장쪽층",
+    "answer": "visceral pericardium",
+    "explanation": "심장 표면에 붙어 있는 장막층.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200336",
+    "prompt": "우심방",
+    "answer": "right atrium",
+    "explanation": "상·하대정맥에서 정맥혈을 받는 심장 방.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200337",
+    "prompt": "우심실",
+    "answer": "right ventricle",
+    "explanation": "정맥혈을 폐동맥으로 내보내는 심장 방.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200338",
+    "prompt": "좌심방",
+    "answer": "left atrium",
+    "explanation": "폐정맥에서 산소가 많은 혈액을 받는 심장 방.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200339",
+    "prompt": "좌심실",
+    "answer": "left ventricle",
+    "explanation": "혈액을 대동맥으로 내보내 전신 순환을 시작하는 방.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200340",
+    "prompt": "상대정맥",
+    "answer": "superior vena cava",
+    "explanation": "상반신에서 돌아오는 혈액을 우심방으로 전달.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200341",
+    "prompt": "하대정맥",
+    "answer": "inferior vena cava",
+    "explanation": "하반신에서 돌아오는 혈액을 우심방으로 전달.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200342",
+    "prompt": "심장 전도계",
+    "answer": "conduction system of the heart",
+    "explanation": "심장 수축을 유발하는 전기신호 전달계.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200343",
+    "prompt": "동방결절",
+    "answer": "sinoatrial (SA) node",
+    "explanation": "심장의 기본 박동을 시작하는 주요 박동조율 부위.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200344",
+    "prompt": "방실결절",
+    "answer": "atrioventricular (AV) node",
+    "explanation": "심방에서 심실로 신호가 전해지는 경로의 결절.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200345",
+    "prompt": "방실다발·히스다발",
+    "answer": "AV bundle / bundle of His",
+    "explanation": "방실결절의 신호를 심실 쪽으로 전달하는 구조.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200346",
+    "prompt": "푸르키녜섬유",
+    "answer": "Purkinje fibers",
+    "explanation": "심실 근육에 전기적 신호를 빠르게 전파하는 섬유.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200347",
+    "prompt": "혈관확장",
+    "answer": "vasodilation",
+    "explanation": "혈관 직경이 증가하는 현상.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200348",
+    "prompt": "혈관수축",
+    "answer": "vasoconstriction",
+    "explanation": "혈관 직경이 감소하는 현상.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200349",
+    "prompt": "정맥판막",
+    "answer": "venous valve",
+    "explanation": "정맥혈 역류를 막는 일방향 판막.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200350",
+    "prompt": "림프계",
+    "answer": "lymphatic system",
+    "explanation": "조직액 회수·면역·지방 운반에 관여하는 체계.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200351",
+    "prompt": "림프",
+    "answer": "lymph",
+    "explanation": "조직액이 림프관으로 들어가 형성된 액체.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200352",
+    "prompt": "림프관",
+    "answer": "lymphatic vessel",
+    "explanation": "림프를 회수·운반하는 통로.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200353",
+    "prompt": "조직액",
+    "answer": "interstitial fluid",
+    "explanation": "세포 사이 공간을 채우는 액체.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200354",
+    "prompt": "림프절",
+    "answer": "lymph node",
+    "explanation": "림프를 여과하고 면역세포가 활성화되는 기관.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200355",
+    "prompt": "흉선",
+    "answer": "thymus",
+    "explanation": "T세포 성숙에 중요한 림프기관.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200356",
+    "prompt": "림프모세혈관",
+    "answer": "lymph capillary",
+    "explanation": "조직액을 회수하는 매우 가는 림프관.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200357",
+    "prompt": "면역계",
+    "answer": "immune system",
+    "explanation": "병원체 등 외부 인자를 인식·방어하는 체계.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200358",
+    "prompt": "죽상판",
+    "answer": "plaque / atheromatous plaque",
+    "explanation": "혈관 안쪽에 지질 등이 쌓여 좁아지게 하는 병변.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200359",
+    "prompt": "혈전",
+    "answer": "thrombus",
+    "explanation": "혈관 안에서 형성된 혈액 응고 덩어리.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200360",
+    "prompt": "색전",
+    "answer": "embolus",
+    "explanation": "혈류로 이동하여 다른 부위 혈관을 막을 수 있는 물질.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200361",
+    "prompt": "출혈",
+    "answer": "hemorrhage",
+    "explanation": "혈관 밖으로 피가 새어나오는 상태.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200362",
+    "prompt": "관상동맥",
+    "answer": "coronary artery",
+    "explanation": "심장 근육에 혈액을 공급하는 동맥.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200363",
+    "prompt": "심근허혈",
+    "answer": "myocardial ischemia",
+    "explanation": "심근에 필요한 혈류·산소 공급이 부족한 상태.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200364",
+    "prompt": "심근괴사",
+    "answer": "myocardial necrosis",
+    "explanation": "심장 근육 세포가 죽는 현상.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200365",
+    "prompt": "혈관성형술",
+    "answer": "angioplasty",
+    "explanation": "좁아진 혈관을 넓혀 혈류를 회복시키는 시술.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200366",
+    "prompt": "스텐트",
+    "answer": "stent",
+    "explanation": "좁아진 혈관의 통로를 유지하도록 넣는 장치.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200367",
+    "prompt": "관상동맥 성형술",
+    "answer": "coronary angioplasty / PTCA",
+    "explanation": "막히거나 좁아진 관상동맥을 풍선 등으로 확장.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200368",
+    "prompt": "관상동맥우회술",
+    "answer": "coronary artery bypass graft (CABG)",
+    "explanation": "막힌 관상동맥 구간을 우회할 혈관 통로를 만드는 수술.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200369",
+    "prompt": "심박조율기",
+    "answer": "pacemaker",
+    "explanation": "심장박동을 조절하기 위해 전기자극을 주는 장치.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200370",
+    "prompt": "심장중격결손",
+    "answer": "septal defect",
+    "explanation": "심장의 좌우를 나누는 벽에 구멍이 있는 이상.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200371",
+    "prompt": "부종",
+    "answer": "edema",
+    "explanation": "조직에 액체가 과다 축적되어 붓는 상태.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  },
+  {
+    "id": "kimwoojin-b:1771511200372",
+    "prompt": "치핵·치질(치핵)",
+    "answer": "hemorrhoid",
+    "explanation": "항문·직장 부위 정맥 구조가 늘어나 나타나는 질환.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 | 중요도 B",
+    "tags": [
+      "KJW2026",
+      "tier_B",
+      "sec_6"
+    ]
+  }
+]

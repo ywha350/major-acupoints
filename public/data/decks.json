@@ -12,5 +12,26 @@
     "description": "총론 · 간 · 심 · 비 · 폐 · 신 · 종합 함정",
     "type": "ox",
     "path": "data/jangbu.json"
+  },
+  {
+    "id": "kimwoojin-a",
+    "name": "김우진 의학용어 A · 최우선",
+    "description": "한글 용어 → 영어 · 설명 · 출처",
+    "type": "text",
+    "path": "data/kimwoojin-a.json"
+  },
+  {
+    "id": "kimwoojin-b",
+    "name": "김우진 의학용어 B · 중요",
+    "description": "한글 용어 → 영어 · 설명 · 출처",
+    "type": "text",
+    "path": "data/kimwoojin-b.json"
+  },
+  {
+    "id": "kimwoojin-c",
+    "name": "김우진 의학용어 C · 보충",
+    "description": "한글 용어 → 영어 · 설명 · 출처",
+    "type": "text",
+    "path": "data/kimwoojin-c.json"
   }
 ]

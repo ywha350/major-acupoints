@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "kimwoojin-c:1771511200373",
+    "prompt": "소화기계",
+    "answer": "digestive system",
+    "explanation": "음식물의 소화·흡수 등을 담당하는 기관계. 강의계획에도 등장.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200374",
+    "prompt": "비뇨기계",
+    "answer": "urinary system",
+    "explanation": "소변 형성과 배출에 관여하는 계통. 학기 안내 등장.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200375",
+    "prompt": "남성생식기계",
+    "answer": "male reproductive system",
+    "explanation": "남성의 생식 기능을 담당하는 계통. 학기 안내 등장.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200376",
+    "prompt": "여성생식기계",
+    "answer": "female reproductive system",
+    "explanation": "여성의 생식 기능을 담당하는 계통. 학기 안내 등장.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200377",
+    "prompt": "내분비계",
+    "answer": "endocrine system",
+    "explanation": "호르몬 분비로 신체 기능을 조절하는 기관계. 학기 안내 등장.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200378",
+    "prompt": "신경계",
+    "answer": "nervous system",
+    "explanation": "신호 전달·조절을 담당하는 계통. 학기 안내 등장.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200379",
+    "prompt": "감각계",
+    "answer": "sensory system",
+    "explanation": "시각·청각 등 감각 정보를 수용하는 계통. 학기 안내 등장.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200380",
+    "prompt": "근골격계",
+    "answer": "musculoskeletal system",
+    "explanation": "뼈·근육·관절 등이 운동·지지를 담당. 학기 안내 등장.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200381",
+    "prompt": "자가면역질환",
+    "answer": "autoimmune disease",
+    "explanation": "면역계가 자신의 성분을 공격하는 질환군. 강의계획 등장.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200382",
+    "prompt": "암",
+    "answer": "cancer",
+    "explanation": "세포가 비정상적으로 성장·침윤할 수 있는 질병군.",
+    "source": "김우진 교수 | PPT 3-9쪽 | 강의의 계통 명칭 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_10"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200383",
+    "prompt": "인체 생리학",
+    "answer": "physiology",
+    "explanation": "생명체의 정상 기능과 작동을 연구하는 학문.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200384",
+    "prompt": "해부학",
+    "answer": "anatomy",
+    "explanation": "몸의 구조를 연구하는 학문.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200385",
+    "prompt": "개체군",
+    "answer": "population",
+    "explanation": "같은 종의 생물 개체들이 모인 집단.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200386",
+    "prompt": "종",
+    "answer": "species",
+    "explanation": "생물 분류의 기본 단위.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200387",
+    "prompt": "생태계",
+    "answer": "ecosystem",
+    "explanation": "생물과 환경의 상호작용 체계.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200388",
+    "prompt": "세포 내",
+    "answer": "intracellular",
+    "explanation": "세포 내부의.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200389",
+    "prompt": "세포 밖",
+    "answer": "extracellular",
+    "explanation": "세포 외부의.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200390",
+    "prompt": "핵막 바깥막",
+    "answer": "outer nuclear membrane",
+    "explanation": "소포체와 이어지는 핵막의 외층.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200391",
+    "prompt": "이중막",
+    "answer": "double membrane",
+    "explanation": "두 막층으로 구성된 구조.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200392",
+    "prompt": "소화효소",
+    "answer": "digestive enzyme",
+    "explanation": "음식물·세포 성분을 더 작은 분자로 분해하는 효소.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200393",
+    "prompt": "지질 합성",
+    "answer": "lipid synthesis",
+    "explanation": "세포에서 지질을 만드는 과정.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200394",
+    "prompt": "해독",
+    "answer": "detoxification",
+    "explanation": "유해성 물질의 독성을 낮추거나 제거하는 과정.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200395",
+    "prompt": "활성산소종",
+    "answer": "reactive oxygen species (ROS)",
+    "explanation": "반응성이 높은 산소 포함 분자·라디칼.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200396",
+    "prompt": "고유결합조직의 치밀 불규칙형",
+    "answer": "dense irregular connective tissue",
+    "explanation": "섬유 방향이 여러 방향으로 교차하는 치밀조직.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200397",
+    "prompt": "고유결합조직의 치밀 규칙형",
+    "answer": "dense regular connective tissue",
+    "explanation": "섬유가 한 방향으로 배열된 치밀조직.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200398",
+    "prompt": "관절",
+    "answer": "joint",
+    "explanation": "뼈와 뼈가 만나는 구조.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200399",
+    "prompt": "후두",
+    "answer": "larynx",
+    "explanation": "목의 발성·기도 보호에 관여하는 기관.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200400",
+    "prompt": "땀샘",
+    "answer": "sweat gland",
+    "explanation": "땀을 분비하는 외분비샘.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200401",
+    "prompt": "침샘",
+    "answer": "salivary gland",
+    "explanation": "침을 분비하는 외분비샘.",
+    "source": "김우진 교수 | PPT 20-49쪽 | 세포와 조직의 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_11"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200402",
+    "prompt": "큰혈관",
+    "answer": "great vessels",
+    "explanation": "심장과 직접 연결되는 큰 혈관들.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200403",
+    "prompt": "복강 장기",
+    "answer": "abdominal organs",
+    "explanation": "배안에 있는 여러 장기를 통칭.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200404",
+    "prompt": "생식기관",
+    "answer": "reproductive organ",
+    "explanation": "생식 기능을 수행하는 기관.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200405",
+    "prompt": "결장",
+    "answer": "colon",
+    "explanation": "큰창자의 대부분을 이루는 부위.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200406",
+    "prompt": "호흡",
+    "answer": "respiration",
+    "explanation": "산소·이산화탄소 교환을 위한 호흡 활동.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200407",
+    "prompt": "보행",
+    "answer": "gait",
+    "explanation": "사람이 걷는 방식.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200408",
+    "prompt": "관절 운동범위",
+    "answer": "range of motion",
+    "explanation": "관절이 움직일 수 있는 각도·범위.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200409",
+    "prompt": "부기",
+    "answer": "swelling",
+    "explanation": "체액 축적 등으로 신체 조직이 부푼 상태.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200410",
+    "prompt": "근긴장도",
+    "answer": "muscle tone",
+    "explanation": "휴식 상태에서도 존재하는 근육의 긴장 수준.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200411",
+    "prompt": "압통",
+    "answer": "tenderness",
+    "explanation": "누를 때 유발되는 통증.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200412",
+    "prompt": "호흡곤란",
+    "answer": "dyspnea",
+    "explanation": "숨이 차고 호흡하기 어려운 느낌.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200413",
+    "prompt": "피부색",
+    "answer": "skin color",
+    "explanation": "진찰의 시진에서 확인하는 겉으로 보이는 특징.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200414",
+    "prompt": "폐포 기체 교환",
+    "answer": "gas exchange",
+    "explanation": "산소와 이산화탄소가 이동하는 현상.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200415",
+    "prompt": "식욕 상태·영양상태",
+    "answer": "nutritional state",
+    "explanation": "영양 공급의 상태를 나타내는 진찰 항목.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200416",
+    "prompt": "발열",
+    "answer": "fever",
+    "explanation": "질환 등으로 체온 설정점이 높아져 체온이 상승하는 상태.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200417",
+    "prompt": "심장박동",
+    "answer": "heartbeat",
+    "explanation": "심장이 수축과 이완을 반복하는 현상.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200418",
+    "prompt": "자기장",
+    "answer": "magnetic field",
+    "explanation": "MRI에서 인체 신호를 얻기 위해 사용하는 장.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200419",
+    "prompt": "전파",
+    "answer": "radio wave",
+    "explanation": "MRI에서 신호 여기·수신에 사용하는 전자기파.",
+    "source": "김우진 교수 | PPT 51-80쪽 | 체강과 진찰 주변 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_12"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200420",
+    "prompt": "진통",
+    "answer": "analgesia",
+    "explanation": "통증 감각이 줄어드는 것.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200421",
+    "prompt": "항염증",
+    "answer": "anti-inflammatory",
+    "explanation": "염증 반응을 줄이는 작용.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200422",
+    "prompt": "진통 작용",
+    "answer": "analgesic effect",
+    "explanation": "통증을 줄이는 효과.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200423",
+    "prompt": "해열 작용",
+    "answer": "antipyretic effect",
+    "explanation": "열을 낮추는 효과.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200424",
+    "prompt": "듀라모프(상품명)",
+    "answer": "Duramorph",
+    "explanation": "morphine의 강의자료에 등장한 상품명.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200425",
+    "prompt": "타이레놀(상품명)",
+    "answer": "Tylenol",
+    "explanation": "acetaminophen의 상품명.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200426",
+    "prompt": "애드빌(상품명)",
+    "answer": "Advil",
+    "explanation": "ibuprofen의 상품명.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200427",
+    "prompt": "모트린(상품명)",
+    "answer": "Motrin",
+    "explanation": "ibuprofen의 상품명.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200428",
+    "prompt": "셀레브렉스(상품명)",
+    "answer": "Celebrex",
+    "explanation": "celecoxib의 상품명.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200429",
+    "prompt": "바이옥스(상품명)",
+    "answer": "Vioxx",
+    "explanation": "PPT 표에 등장한 과거 상품명(현재 일반적 사용 제품 아님).",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200430",
+    "prompt": "데카드론(상품명)",
+    "answer": "Decadron",
+    "explanation": "dexamethasone의 상품명.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200431",
+    "prompt": "코르톤(상품명)",
+    "answer": "Cortone",
+    "explanation": "cortisone의 상품명.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200432",
+    "prompt": "델타손(상품명)",
+    "answer": "Deltasone",
+    "explanation": "prednisone의 상품명.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200433",
+    "prompt": "인도신(상품명)",
+    "answer": "Indocin",
+    "explanation": "indomethacin의 상품명.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200434",
+    "prompt": "약물의 치료",
+    "answer": "treatment",
+    "explanation": "질병이나 증상을 개선하기 위한 의료 개입.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200435",
+    "prompt": "약물의 예방",
+    "answer": "prevention",
+    "explanation": "질병의 발생을 막거나 위험을 줄이는 목적.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200436",
+    "prompt": "약물 처방",
+    "answer": "prescription",
+    "explanation": "의료인이 약물 사용법을 정하는 지시.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200437",
+    "prompt": "부신피질",
+    "answer": "adrenal cortex",
+    "explanation": "코르티코스테로이드 호르몬의 분비 부위.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200438",
+    "prompt": "혈소판",
+    "answer": "platelet",
+    "explanation": "혈액 응고와 지혈에 관여하는 혈액 성분.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200439",
+    "prompt": "혈전 형성",
+    "answer": "blood clot formation",
+    "explanation": "혈액이 응고되어 덩어리를 만드는 과정.",
+    "source": "김우진 교수 | PPT 81-93쪽 | 약물의 예시 상품명과 세부 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_13"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200440",
+    "prompt": "영양소",
+    "answer": "nutrient",
+    "explanation": "생명활동에 필요한 영양 물질.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200441",
+    "prompt": "산소",
+    "answer": "oxygen",
+    "explanation": "세포 호흡 등에 사용되는 기체.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200442",
+    "prompt": "이산화탄소",
+    "answer": "carbon dioxide",
+    "explanation": "세포 대사에서 발생하고 폐로 배출되는 기체.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200443",
+    "prompt": "호르몬",
+    "answer": "hormone",
+    "explanation": "체내 표적에 작용하는 화학적 신호물질.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200444",
+    "prompt": "혈액세포",
+    "answer": "blood cell",
+    "explanation": "적혈구·백혈구·혈소판 등 혈액의 세포성 성분.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200445",
+    "prompt": "체온 조절",
+    "answer": "temperature regulation",
+    "explanation": "체온을 일정 범위로 조절하는 과정.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200446",
+    "prompt": "질병 방어",
+    "answer": "immune defense",
+    "explanation": "병원체 등에 맞서는 면역 활동.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200447",
+    "prompt": "림프기관",
+    "answer": "lymphatic organ",
+    "explanation": "림프절·비장·흉선 등 면역 관련 기관.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200448",
+    "prompt": "림프망",
+    "answer": "network of lymphatic vessels",
+    "explanation": "림프가 흘러가는 관의 연결 체계.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200449",
+    "prompt": "병원체",
+    "answer": "pathogen",
+    "explanation": "질병을 일으킬 수 있는 미생물 등.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200450",
+    "prompt": "비만",
+    "answer": "obesity",
+    "explanation": "체지방이 과도하게 축적된 상태.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200451",
+    "prompt": "흡연",
+    "answer": "smoking",
+    "explanation": "흡입 담배 연기에 노출되는 행위.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200452",
+    "prompt": "고혈압",
+    "answer": "high blood pressure / hypertension",
+    "explanation": "혈압이 정상 범위보다 지속적으로 높은 상태.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200453",
+    "prompt": "가족력",
+    "answer": "family history",
+    "explanation": "가족 구성원의 질환력.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200454",
+    "prompt": "위험인자",
+    "answer": "risk factor",
+    "explanation": "질병 발생의 가능성을 높이는 특성이나 요인.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200455",
+    "prompt": "콜레스테롤 이상",
+    "answer": "abnormal cholesterol level",
+    "explanation": "지질 수치 이상으로 혈관 위험 증가와 관련.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200456",
+    "prompt": "지방구",
+    "answer": "fat globule",
+    "explanation": "색전을 구성할 수 있는 작은 지방 덩어리.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200457",
+    "prompt": "기포",
+    "answer": "gas bubble",
+    "explanation": "혈관 내 색전의 원인이 될 수 있는 기체 거품.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200458",
+    "prompt": "이물질",
+    "answer": "foreign body",
+    "explanation": "체내에 들어와 조직·혈관에 영향을 주는 외부 물체.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200459",
+    "prompt": "협착",
+    "answer": "stenosis",
+    "explanation": "관이나 혈관 내강이 비정상적으로 좁아짐.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200460",
+    "prompt": "가슴통증·흉통",
+    "answer": "chest pain",
+    "explanation": "가슴에서 느끼는 통증·압박감.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200461",
+    "prompt": "창백",
+    "answer": "pallor",
+    "explanation": "피부·점막이 비정상적으로 희어 보이는 상태.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200462",
+    "prompt": "발한",
+    "answer": "diaphoresis",
+    "explanation": "땀이 많이 나는 증상.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200463",
+    "prompt": "구역",
+    "answer": "nausea",
+    "explanation": "토할 듯한 불쾌감.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200464",
+    "prompt": "피로",
+    "answer": "fatigue",
+    "explanation": "쉽게 지치거나 지속적으로 기운이 없는 느낌.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200465",
+    "prompt": "다리부종",
+    "answer": "leg swelling",
+    "explanation": "다리 조직에 액체가 축적되어 붓는 상태.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200466",
+    "prompt": "혈류",
+    "answer": "blood flow",
+    "explanation": "혈액이 혈관을 따라 이동하는 것.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200467",
+    "prompt": "우회로",
+    "answer": "shunt",
+    "explanation": "혈액 등의 흐름을 다른 경로로 돌리는 통로.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  },
+  {
+    "id": "kimwoojin-c:1771511200468",
+    "prompt": "판막 기형",
+    "answer": "valve malformation",
+    "explanation": "심장 판막의 선천적 또는 구조적 이상.",
+    "source": "김우진 교수 | PPT 94-123쪽 | 순환기계 증상·기초 용어 | 중요도 C",
+    "tags": [
+      "KJW2026",
+      "tier_C",
+      "sec_14"
+    ]
+  }
+]

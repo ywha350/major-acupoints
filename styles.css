@@ -236,6 +236,7 @@ button {
 
 .deck-tabs {
   display: flex;
+  overflow-x: auto;
   gap: 6px;
   padding: 5px;
   border: 1px solid var(--line);
@@ -243,7 +244,9 @@ button {
 }
 
 .deck-tab {
-  flex: 1;
+  flex: 1 0 auto;
+  padding: 8px 12px;
+  white-space: nowrap;
   min-width: 0;
   min-height: 44px;
   border: 0;

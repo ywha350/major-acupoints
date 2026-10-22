@@ -29,7 +29,7 @@ async function databaseRows(page, store) {
 test("home opens both decks and keeps empty review modes usable", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "오늘은 어떤 덱을 공부할까요?" })).toBeVisible();
-  await expect(page.locator(".deck-count")).toHaveText(["51장 · 학습 0장", "321장 · 학습 0장"]);
+  await expect(page.locator(".deck-count")).toHaveText(["51장 · 학습 0장", "321장 · 학습 0장", "156장 · 학습 0장", "217장 · 학습 0장", "96장 · 학습 0장"]);
   await page.getByRole("button", { name: "장부생리 학습하기", exact: true }).click();
   await expect(page.locator(".menu-title")).toHaveText("장부생리");
   await page.locator('[data-mode="fail"]').click();
@@ -144,9 +144,16 @@ test("both decks work offline after the PWA has cached them", async ({ page, con
     return (await cache.keys()).map((request) => new URL(request.url).pathname);
   });
   expect(cached).toContain("/data/jangbu.json");
+  for (const letter of ["a", "b", "c"]) expect(cached).toContain(`/data/kimwoojin-${letter}.json`);
   expect(cached).toContain(`/${imageCards[0].frontImage}`);
   await context.setOffline(true);
   await page.reload();
+  for (const letter of ["a", "b", "c"]) {
+    await openDeck(page, `kimwoojin-${letter}`);
+    await startAll(page);
+    await page.getByRole("button", { name: "정답 보기", exact: true }).click();
+    await expect(page.locator(".answer-value")).toBeVisible();
+  }
   await openDeck(page, "jangbu");
   await startAll(page);
   await page.locator('[data-answer="O"]').click();
@@ -182,4 +189,34 @@ test("small screens keep navigation and answer controls accessible", async ({ pa
     };
   });
   expect(layout).toEqual({ overflow: false, navVisible: true, controlsVisible: true, sourceAccessible: true });
+});
+
+test('vocabulary decks reveal original fields and preserve separate study records', async ({ page }) => {
+  await page.goto('/');
+  const prompts = {};
+  for (const letter of ['a', 'b', 'c']) {
+    const id = `kimwoojin-${letter}`;
+    const cards = JSON.parse(readFileSync(`public/data/${id}.json`, 'utf8'));
+    await openDeck(page, id);
+    await startAll(page);
+    const prompt = await page.locator('.statement').textContent();
+    const card = cards.find(item => item.prompt === prompt);
+    await expect(page.locator('.answer-panel')).toHaveCount(0);
+    await page.getByRole('button', { name: '정답 보기', exact: true }).click();
+    await expect(page.locator('.answer-value')).toHaveText(card.answer);
+    await expect(page.locator('.explanation')).toHaveText(card.explanation);
+    await expect(page.locator('.source')).toHaveText(card.source);
+    await page.locator('[data-grade="perfect"]').click();
+    await expect(page.locator('.progress-label')).toHaveText(`2 / ${cards.length}`);
+    prompts[id] = await page.locator('.statement').textContent();
+  }
+  await page.reload();
+  for (const [id, prompt] of Object.entries(prompts)) {
+    await openDeck(page, id);
+    await expect(page.locator('[data-mode="perfect"] .count')).toHaveText('1');
+    await startAll(page);
+    await expect(page.locator('.statement')).toHaveText(prompt);
+    await expect(page.locator('.answer-panel')).toHaveCount(0);
+  }
+  expect((await databaseRows(page, 'sessions')).map(row => row.mode).sort()).toEqual(['kimwoojin-a:all', 'kimwoojin-b:all', 'kimwoojin-c:all']);
 });

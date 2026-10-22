@@ -198,7 +198,7 @@ function renderHome() {
     const studied = deck.cards.filter((card) => progress.has(card.id)).length;
     const saved = savedSessions.get(sessionKey(deck.id, "all"));
     tile.append(
-      text("span", "deck-type", deck.type === "ox" ? "OX 퀴즈" : "이미지 카드"),
+      text("span", "deck-type", deckTypeLabel(deck)),
       text("span", "deck-name", deck.name),
       text("span", "deck-description", deck.description),
       text("span", "deck-count", `${deck.cards.length}장 · 학습 ${studied}장`),
@@ -212,6 +212,10 @@ function renderHome() {
 function getCardsFor(mode) {
   if (mode === "all") return [...activeDeck.cards];
   return activeDeck.cards.filter((card) => progress.get(card.id) === mode);
+}
+
+function deckTypeLabel(deck) {
+  return { ox: "OX 퀴즈", text: "단어 카드", image: "이미지 카드" }[deck.type];
 }
 
 function shuffleCards(items) {
@@ -231,7 +235,7 @@ function renderMenu() {
   const title = document.createElement("h1");
   title.className = "menu-title";
   title.textContent = activeDeck.name;
-  menu.append(title, text("p", "menu-description", `${activeDeck.type === "ox" ? "OX 퀴즈" : "이미지 카드"} · ${activeDeck.cards.length}장`));
+  menu.append(title, text("p", "menu-description", `${deckTypeLabel(activeDeck)} · ${activeDeck.cards.length}장`));
 
   ["all", "perfect", "middle", "fail"].forEach((mode) => {
     const row = document.createElement("div");
@@ -309,7 +313,7 @@ function renderCard() {
   bar.append(label);
 
   const cardElement = document.createElement("div");
-  cardElement.className = isOx ? "card text-card" : "card";
+  cardElement.className = activeDeck.type !== "image" ? "card text-card" : "card";
   if (isOx) {
     cardElement.append(text("p", "eyebrow", `장부생리 · ${card.section}`), text("h1", "statement", card.prompt));
     if (session.revealed) {
@@ -328,6 +332,17 @@ function renderCard() {
       cardElement.append(answer);
     } else {
       cardElement.append(text("p", "answer-hint", "맞으면 O, 틀리면 X를 선택하세요."));
+    }
+  } else if (activeDeck.type === "text") {
+    cardElement.append(text("p", "eyebrow", activeDeck.name), text("h1", "statement", card.prompt));
+    if (session.revealed) {
+      const answer = document.createElement("div");
+      answer.className = "answer-panel";
+      answer.append(text("p", "answer-value", card.answer), text("p", "explanation", card.explanation), text("p", "source", card.source));
+      cardElement.append(answer);
+    } else {
+      cardElement.append(text("p", "answer-hint", "영어 용어를 떠올린 뒤 정답을 확인하세요."));
+      cardElement.addEventListener("click", () => runAction(() => reveal()));
     }
   } else {
     const image = document.createElement("img");
@@ -408,7 +423,7 @@ window.addEventListener("keydown", (event) => {
   if (!session.revealed) {
     if (activeDeck.type === "ox" && ["o", "x"].includes(event.key.toLowerCase())) {
       action = () => reveal(event.key.toUpperCase());
-    } else if (activeDeck.type === "image" && [" ", "Enter"].includes(event.key) && event.target.tagName !== "BUTTON") {
+    } else if (activeDeck.type !== "ox" && [" ", "Enter"].includes(event.key) && event.target.tagName !== "BUTTON") {
       action = () => reveal();
     }
   } else if (["1", "2", "3"].includes(event.key)) {
