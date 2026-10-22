@@ -1,0 +1,3026 @@
+[
+  {
+    "id": "kimyangseok:5fb2b747f575c8c4",
+    "prompt": "검증",
+    "answer": "validation",
+    "explanation": "자료나 방법이 의도한 목적에 맞게 타당하고 신뢰할 만한지 확인하는 과정.",
+    "source": "김양석 의학용어 | PDF 3쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:ee31487c6541362a",
+    "prompt": "실사용 근거",
+    "answer": "real-world evidence (RWE)",
+    "explanation": "실제 진료·일상 환경에서 수집한 자료를 분석하여 얻는 치료의 사용 및 효과에 관한 근거.",
+    "source": "김양석 의학용어 | 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:853c70ba67294c78",
+    "prompt": "동양의학",
+    "answer": "Oriental medicine",
+    "explanation": "동아시아의 전통 의학을 포괄하여 부르는 표현. 논문에서 서양의학과 대비해 사용한다.",
+    "source": "김양석 의학용어 | PDF 3,4쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:2398f501f1ca1dbe",
+    "prompt": "서양의학",
+    "answer": "Western medicine",
+    "explanation": "현대의 생의학적 이론과 진단·치료 방법에 기반한 의학을 가리키는 표현.",
+    "source": "김양석 의학용어 | PDF 9쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:a7c8d34d57aa12f8",
+    "prompt": "논문",
+    "answer": "scientific paper",
+    "explanation": "연구 방법·결과·해석 등을 체계적으로 보고하는 학술 문서.",
+    "source": "김양석 의학용어 | 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:d484e2f8736a4331",
+    "prompt": "학술지",
+    "answer": "journal",
+    "explanation": "전문 분야의 연구 논문을 정기적으로 출판하는 매체.",
+    "source": "김양석 의학용어 | PDF 3쪽; 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:4747acb45f55af25",
+    "prompt": "종설 논문",
+    "answer": "review article",
+    "explanation": "특정 주제의 기존 연구를 종합·평가하는 논문.",
+    "source": "김양석 의학용어 | PDF 5쪽; 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:5a4b308f14fe4fa9",
+    "prompt": "책임저자·교신저자",
+    "answer": "corresponding author",
+    "explanation": "논문 투고와 출판 과정에서 연락을 담당하는 저자. 반드시 마지막 저자인 것은 아니다.",
+    "source": "김양석 의학용어 | 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:e7411e6a568cc367",
+    "prompt": "동료심사",
+    "answer": "peer review",
+    "explanation": "동일 분야 전문가가 연구 논문의 방법·해석 등을 검토하는 절차. 진실성을 완전히 보증하는 절차는 아니다.",
+    "source": "김양석 의학용어 | 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:8c7ffe6a3053f7b7",
+    "prompt": "식이보충제",
+    "answer": "dietary supplement",
+    "explanation": "식사를 보충하기 위해 섭취하는 비타민·미네랄·식물 성분 등의 제품.",
+    "source": "김양석 의학용어 | PDF 7쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:6b0910fa6aa7f5cc",
+    "prompt": "제조 관리",
+    "answer": "manufacturing practices",
+    "explanation": "제품을 일정한 품질로 생산하기 위한 제조 절차와 관리 방식.",
+    "source": "김양석 의학용어 | PDF 7쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:5e7a92a4d7abd531",
+    "prompt": "불순물 혼입·변조",
+    "answer": "adulteration",
+    "explanation": "원료나 제품에 다른 물질을 섞거나 바꾸어 순도·진정성을 훼손하는 것.",
+    "source": "김양석 의학용어 | PDF 7쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:a867d909b5fd067e",
+    "prompt": "분리·정제",
+    "answer": "isolation and purification",
+    "explanation": "혼합물에서 특정 성분을 분리하고 불순물을 제거하는 과정.",
+    "source": "김양석 의학용어 | PDF 8쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:fe7e1e307a0d87b6",
+    "prompt": "화학 합성",
+    "answer": "chemical synthesis",
+    "explanation": "화학 반응을 통해 목표 화합물을 만드는 과정.",
+    "source": "김양석 의학용어 | PDF 8쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:765f92232f395d0e",
+    "prompt": "천연물",
+    "answer": "natural product",
+    "explanation": "생물에서 유래한 물질. 천연 유래라는 사실만으로 안전성이 보장되지는 않는다.",
+    "source": "김양석 의학용어 | 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:3b940a7546935dd7",
+    "prompt": "단일 분자",
+    "answer": "single molecule",
+    "explanation": "한 종류의 화학 구조를 가진 분자. 여러 성분이 섞인 추출물과 대비된다.",
+    "source": "김양석 의학용어 | 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:ae6fb714392660f0",
+    "prompt": "추출물",
+    "answer": "extract",
+    "explanation": "용매 등을 이용해 원료에서 여러 성분을 뽑아낸 혼합물.",
+    "source": "김양석 의학용어 | PDF 8,22쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:ddff3403431f33c7",
+    "prompt": "표준화",
+    "answer": "standardization",
+    "explanation": "성분·함량·시험법 등을 일정한 기준에 맞추는 과정.",
+    "source": "김양석 의학용어 | PDF 22쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:900cad37ae60c6f5",
+    "prompt": "임상시험용 신약 신청",
+    "answer": "investigational new drug application (IND)",
+    "explanation": "미국에서 사람 대상 신약 임상시험을 시작하기 위해 제출하는 신청 자료.",
+    "source": "김양석 의학용어 | PDF 6쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:a9ac8c7d93b34332",
+    "prompt": "신약 허가 신청",
+    "answer": "new drug application (NDA)",
+    "explanation": "미국에서 신약 판매 승인을 받기 위해 품질·안전성·유효성 자료를 제출하는 절차.",
+    "source": "김양석 의학용어 | PDF 6쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:7d17b3d5fe96082d",
+    "prompt": "미국 식품의약국",
+    "answer": "Food and Drug Administration (FDA)",
+    "explanation": "미국에서 의약품·식품·의료기기 등의 규제를 담당하는 기관.",
+    "source": "김양석 의학용어 | PDF 6쪽; 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:cecd1ba69ddb34a1",
+    "prompt": "제형화",
+    "answer": "formulation",
+    "explanation": "약물을 정제·주사제 등 투여 가능한 형태로 구성하는 과정.",
+    "source": "김양석 의학용어 | PDF 6쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:ad8aa3aedcfdb136",
+    "prompt": "안정성",
+    "answer": "stability",
+    "explanation": "보관·제조 조건에서 물질의 성질과 함량이 유지되는 특성. 안전성과 구별한다.",
+    "source": "김양석 의학용어 | PDF 6쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:0f924ccfe76abea0",
+    "prompt": "내약성",
+    "answer": "tolerability",
+    "explanation": "환자나 참여자가 약물의 이상반응을 견딜 수 있는 정도.",
+    "source": "김양석 의학용어 | PDF 6쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:92af193aeb7dec0a",
+    "prompt": "적응증",
+    "answer": "indication",
+    "explanation": "특정 약물이나 치료가 사용되는 질환·상태.",
+    "source": "김양석 의학용어 | 녹취 1 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:ab32904acff0988a",
+    "prompt": "단일눈가림",
+    "answer": "single blinding",
+    "explanation": "참여자 등 한 측이 치료 배정을 모르게 하는 방법. 침 연구에서는 시술자 눈가림이 어려울 수 있다.",
+    "source": "김양석 의학용어 | 녹취 6 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:737fc1f6f7a0d895",
+    "prompt": "편향",
+    "answer": "bias",
+    "explanation": "연구 설계·수행·평가 과정에서 결과를 체계적으로 왜곡하는 요인.",
+    "source": "김양석 의학용어 | 녹취 2 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:0a8213b6b4d9ee76",
+    "prompt": "통계적 유의성",
+    "answer": "statistical significance",
+    "explanation": "관찰된 결과가 특정 통계 모형의 귀무가설 아래에서 얼마나 드문지 판단하는 개념. 임상적 중요성과 같지 않다.",
+    "source": "김양석 의학용어 | 녹취 2 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:3429d1c6727a8b34",
+    "prompt": "추적 관찰",
+    "answer": "follow-up",
+    "explanation": "대상자의 상태와 결과를 시간에 따라 반복해서 확인하는 과정.",
+    "source": "김양석 의학용어 | PDF 27,68쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:80db90cd573520be",
+    "prompt": "관찰 연구",
+    "answer": "observational study",
+    "explanation": "연구자가 노출을 배정하지 않고 실제 노출과 결과의 관계를 관찰하는 연구.",
+    "source": "김양석 의학용어 | 녹취 5 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:212dbd10647a496a",
+    "prompt": "가설",
+    "answer": "hypothesis",
+    "explanation": "자료나 실험으로 검증하려는 잠정적 설명 또는 예측.",
+    "source": "김양석 의학용어 | 녹취 5 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:dddf22b55cf4b9ce",
+    "prompt": "발생률",
+    "answer": "incidence",
+    "explanation": "일정 기간 동안 집단에서 새로 발생한 질병의 빈도.",
+    "source": "김양석 의학용어 | PDF 66,68쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:d8acbfa819479c84",
+    "prompt": "유병률",
+    "answer": "prevalence",
+    "explanation": "특정 시점이나 기간에 집단에서 질병을 가진 사람의 비율.",
+    "source": "김양석 의학용어 | 녹취 6 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:79d0343ae12ec972",
+    "prompt": "역의 연관성",
+    "answer": "inverse association",
+    "explanation": "한 변수의 값이 높을수록 다른 변수의 값이 낮아지는 관계. 인과관계를 자동으로 뜻하지 않는다.",
+    "source": "김양석 의학용어 | PDF 66쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:136dfeddf0afac24",
+    "prompt": "위험인자",
+    "answer": "risk factor",
+    "explanation": "질환 발생 가능성의 증가와 관련되는 특성이나 노출.",
+    "source": "김양석 의학용어 | PDF 66쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:6095fbf34f5ec308",
+    "prompt": "중재",
+    "answer": "intervention",
+    "explanation": "치료·예방 효과 등을 평가하기 위해 적용하는 약물·시술·행동 변화 등의 처치.",
+    "source": "김양석 의학용어 | PDF 105쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:5775bc49abdd8c49",
+    "prompt": "종적 임상 평가",
+    "answer": "longitudinal clinical evaluation",
+    "explanation": "동일한 대상자의 임상 상태를 시간 경과에 따라 반복 평가하는 방법.",
+    "source": "김양석 의학용어 | PDF 114,115쪽 | 연구와 신약개발 | 학습 중요도 B",
+    "section": "연구와 신약개발",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "연구와 신약개발"
+    ]
+  },
+  {
+    "id": "kimyangseok:1a61ed1d612785f0",
+    "prompt": "기생충량 감소",
+    "answer": "parasite biomass reduction",
+    "explanation": "숙주 내 기생충의 총량이 줄어드는 것. 강의의 ‘말라리아균’은 원충으로 바로잡는다.",
+    "source": "김양석 의학용어 | PDF 11쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:ccf826e261312418",
+    "prompt": "해열·발열 소실",
+    "answer": "fever clearance",
+    "explanation": "치료 후 발열이 사라지는 것. 치료 반응을 평가하는 지표가 될 수 있다.",
+    "source": "김양석 의학용어 | PDF 11쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:62721c7ab6818f78",
+    "prompt": "퀴놀린계 항말라리아제",
+    "answer": "quinoline anti-malarials",
+    "explanation": "퀴놀린 구조를 바탕으로 하는 항말라리아 약물군.",
+    "source": "김양석 의학용어 | PDF 11쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:cb4015e30ad86058",
+    "prompt": "재발",
+    "answer": "recurrence",
+    "explanation": "호전되거나 사라졌던 질환이 다시 나타나는 것. 원인과 맥락에 따라 세부 용어가 달라진다.",
+    "source": "김양석 의학용어 | 녹취 1,4 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:aedaef8b4f8f78a9",
+    "prompt": "세계보건기구",
+    "answer": "World Health Organization (WHO)",
+    "explanation": "국제 보건 문제에 관한 협력과 지침 마련을 담당하는 유엔 전문기구.",
+    "source": "김양석 의학용어 | PDF 11쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:e02d4e683bb9135d",
+    "prompt": "헤모글로빈",
+    "answer": "hemoglobin",
+    "explanation": "적혈구에서 산소 운반을 담당하는 헴 단백질.",
+    "source": "김양석 의학용어 | PDF 13쪽; 녹취 1 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:a9dea221698a66c0",
+    "prompt": "적혈구",
+    "answer": "erythrocyte / red blood cell (RBC)",
+    "explanation": "헤모글로빈을 통해 산소를 운반하는 혈액 세포. 말라리아 원충의 증식 장소 중 하나다.",
+    "source": "김양석 의학용어 | PDF 13쪽; 녹취 1 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:d932f76e03d00f5c",
+    "prompt": "유리기·라디칼",
+    "answer": "free radical",
+    "explanation": "짝을 이루지 않은 전자를 가진 화학종. 일부는 반응성이 높아 생체 분자를 손상시킬 수 있다.",
+    "source": "김양석 의학용어 | PDF 13쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:6677baba5ab0b256",
+    "prompt": "약물 대사",
+    "answer": "drug metabolism",
+    "explanation": "효소 반응 등을 통해 약물의 화학 구조가 변환되는 과정.",
+    "source": "김양석 의학용어 | PDF 11쪽; 녹취 1 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:3e8e35ec3eacd782",
+    "prompt": "생분해",
+    "answer": "biodegradation",
+    "explanation": "생물학적 작용으로 물질이 분해되는 과정.",
+    "source": "김양석 의학용어 | 녹취 1 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:168b8ea94c96aa5b",
+    "prompt": "약물 유출 펌프",
+    "answer": "efflux pump",
+    "explanation": "세포 안에 들어온 약물을 밖으로 배출하여 세포 내 농도를 낮추는 막 단백질.",
+    "source": "김양석 의학용어 | PDF 14,59쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:bdb7386ea7e07417",
+    "prompt": "표적 변형",
+    "answer": "target modification",
+    "explanation": "약물이 결합하는 표적의 구조가 달라져 약효가 감소하는 내성 기전.",
+    "source": "김양석 의학용어 | PDF 14,59쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:88bbd9e3cb35faa5",
+    "prompt": "약물 불활성화",
+    "answer": "drug inactivation",
+    "explanation": "효소 작용 등으로 약물의 구조나 활성을 바꾸어 효과를 낮추는 기전.",
+    "source": "김양석 의학용어 | PDF 14,59쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:10905d1588e10c04",
+    "prompt": "막 투과성 감소",
+    "answer": "reduced permeability",
+    "explanation": "약물이 세포 내부로 들어오는 양을 줄이는 내성 기전.",
+    "source": "김양석 의학용어 | PDF 14,59쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:df433855caedd35a",
+    "prompt": "항생제",
+    "answer": "antibiotic",
+    "explanation": "세균을 죽이거나 증식을 억제하는 약물. 일반적인 바이러스 감염의 치료제와 구별한다.",
+    "source": "김양석 의학용어 | PDF 14쪽 | 청호와 말라리아 | 학습 중요도 B",
+    "section": "청호와 말라리아",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "청호와 말라리아"
+    ]
+  },
+  {
+    "id": "kimyangseok:924609840b8b691a",
+    "prompt": "면역 반응",
+    "answer": "immune response",
+    "explanation": "면역계가 항원이나 위험 신호를 인지하고 반응하는 과정.",
+    "source": "김양석 의학용어 | PDF 25쪽; 녹취 2 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:4e7c979407377b65",
+    "prompt": "자가항원",
+    "answer": "self-antigen",
+    "explanation": "자기 몸에 존재하면서 면역계가 인식할 수 있는 항원.",
+    "source": "김양석 의학용어 | PDF 25쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:3337857168d5406a",
+    "prompt": "면역억제제",
+    "answer": "immunosuppressant",
+    "explanation": "면역 반응을 억제하는 약물. 자가면역질환이나 이식 거부반응 등에 사용된다.",
+    "source": "김양석 의학용어 | 녹취 2 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:9bb049b6c2b050a7",
+    "prompt": "스테로이드",
+    "answer": "steroid",
+    "explanation": "특정 고리 구조를 가진 물질군. 강의에서는 주로 항염증성 코르티코스테로이드를 뜻한다.",
+    "source": "김양석 의학용어 | 녹취 2 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:265b1887af42aa43",
+    "prompt": "콜라겐 유도 관절염",
+    "answer": "collagen-induced arthritis (CIA)",
+    "explanation": "콜라겐으로 면역반응을 유도해 관절염을 발생시키는 실험 모델.",
+    "source": "김양석 의학용어 | PDF 30쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:af07ef1d60c001ed",
+    "prompt": "페트리 접시",
+    "answer": "Petri dish",
+    "explanation": "세포나 미생물 배양 등에 사용하는 얕고 둥근 실험 용기.",
+    "source": "김양석 의학용어 | 녹취 2 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:2e0e6ba24b3872f5",
+    "prompt": "하위 신호전달",
+    "answer": "downstream signaling",
+    "explanation": "상위 표적의 활성 이후 연쇄적으로 진행되는 신호전달 과정.",
+    "source": "김양석 의학용어 | PDF 28,34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:bb6633b59ef72d59",
+    "prompt": "신호 연쇄반응",
+    "answer": "signaling cascade",
+    "explanation": "연속된 분자 반응으로 신호가 전달·증폭되는 과정.",
+    "source": "김양석 의학용어 | PDF 28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:bebc1a62239e1966",
+    "prompt": "다발성경화증",
+    "answer": "multiple sclerosis (MS)",
+    "explanation": "중추신경계의 수초 손상이 특징인 면역매개 질환.",
+    "source": "김양석 의학용어 | PDF 28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:fb5c7a11aa790b19",
+    "prompt": "만성 대장염",
+    "answer": "chronic colitis",
+    "explanation": "대장에 지속되거나 반복되는 염증이 있는 상태.",
+    "source": "김양석 의학용어 | PDF 28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:9de6c932557c45d8",
+    "prompt": "루푸스 신염",
+    "answer": "lupus nephritis",
+    "explanation": "전신홍반루푸스에 동반되는 신장의 염증성 손상.",
+    "source": "김양석 의학용어 | PDF 28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:968d7aac596bb36d",
+    "prompt": "상염색체 우성 다낭성 신장병",
+    "answer": "autosomal dominant polycystic kidney disease (ADPKD)",
+    "explanation": "상염색체 우성으로 유전되며 신장에 여러 낭종이 생기는 질환. 자가면역질환 자체는 아니다.",
+    "source": "김양석 의학용어 | PDF 28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:664ac3827c211adf",
+    "prompt": "전립선염",
+    "answer": "prostatitis",
+    "explanation": "전립선에 발생하는 염증성 질환 또는 관련 증후군.",
+    "source": "김양석 의학용어 | PDF 28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:4056e947e5c486bc",
+    "prompt": "천식",
+    "answer": "asthma",
+    "explanation": "기도 염증과 가변적인 기류 제한을 특징으로 하는 만성 호흡기 질환.",
+    "source": "김양석 의학용어 | PDF 28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:74474400382a3623",
+    "prompt": "이식 거부반응",
+    "answer": "transplant rejection",
+    "explanation": "수혜자의 면역계가 이식된 조직이나 장기를 공격하는 반응.",
+    "source": "김양석 의학용어 | PDF 28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:8d4d82f8bbcd8aca",
+    "prompt": "전신홍반루푸스",
+    "answer": "systemic lupus erythematosus (SLE)",
+    "explanation": "다양한 장기를 침범할 수 있는 전신성 자가면역질환.",
+    "source": "김양석 의학용어 | PDF 28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:2072c6c23dc5d999",
+    "prompt": "건선",
+    "answer": "psoriasis",
+    "explanation": "면역 반응과 관련된 만성 염증성 피부질환으로 인설성 판 등이 나타난다.",
+    "source": "김양석 의학용어 | PDF 26,28쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:cac9b0f4724e647c",
+    "prompt": "대장암",
+    "answer": "colorectal cancer",
+    "explanation": "결장이나 직장에서 발생하는 악성 종양.",
+    "source": "김양석 의학용어 | PDF 34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:a5bc886df5434d99",
+    "prompt": "구강암",
+    "answer": "oral cancer",
+    "explanation": "구강의 조직에 발생하는 악성 종양.",
+    "source": "김양석 의학용어 | PDF 34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:7d3ae2af9c2aa325",
+    "prompt": "난소암",
+    "answer": "ovarian cancer",
+    "explanation": "난소에서 발생하는 악성 종양.",
+    "source": "김양석 의학용어 | PDF 34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:5bf8d5d5ad5559f8",
+    "prompt": "유방암",
+    "answer": "breast cancer",
+    "explanation": "유방 조직에서 발생하는 악성 종양.",
+    "source": "김양석 의학용어 | PDF 34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:79a9884fbd6ed46b",
+    "prompt": "일시적 불임",
+    "answer": "temporary infertility",
+    "explanation": "일정 기간 생식 능력이 감소하거나 임신 성립이 어려워지는 상태.",
+    "source": "김양석 의학용어 | PDF 34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:32f40d8e91b77b0e",
+    "prompt": "남성 피임제",
+    "answer": "male contraceptive",
+    "explanation": "남성의 생식 기능에 작용하여 임신을 예방하는 제제.",
+    "source": "김양석 의학용어 | PDF 34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:3e4da357510c9031",
+    "prompt": "부고환",
+    "answer": "epididymis",
+    "explanation": "정자가 성숙하고 저장되는 고환 뒤쪽의 관 모양 구조.",
+    "source": "김양석 의학용어 | PDF 34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:15af61fc5af49a25",
+    "prompt": "정자 운동성",
+    "answer": "sperm motility",
+    "explanation": "정자가 스스로 이동할 수 있는 능력.",
+    "source": "김양석 의학용어 | PDF 34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:60ec229d9b1dee6f",
+    "prompt": "고환",
+    "answer": "testis",
+    "explanation": "정자와 남성호르몬을 생산하는 남성 생식기관.",
+    "source": "김양석 의학용어 | PDF 34쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:baf1695ef24a7ac0",
+    "prompt": "대식세포",
+    "answer": "macrophage",
+    "explanation": "병원체와 죽은 세포 등을 포식하고 면역 반응에 관여하는 세포.",
+    "source": "김양석 의학용어 | PDF 35쪽; 녹취 2 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:a63cd6b2ba60908c",
+    "prompt": "세포주기",
+    "answer": "cell cycle",
+    "explanation": "세포가 성장하고 DNA를 복제한 뒤 분열하는 일련의 단계.",
+    "source": "김양석 의학용어 | PDF 37,48쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:63d609bcbaa4ec07",
+    "prompt": "유사분열",
+    "answer": "mitosis",
+    "explanation": "복제된 염색체를 두 딸세포에 분배하는 핵분열 과정.",
+    "source": "김양석 의학용어 | PDF 37쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:0ee4068701577527",
+    "prompt": "세포주기 정지",
+    "answer": "cell cycle arrest",
+    "explanation": "세포주기의 진행이 일시적 또는 지속적으로 멈추는 상태.",
+    "source": "김양석 의학용어 | PDF 48,52쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:882a7d5b212dc5b5",
+    "prompt": "세포 증식",
+    "answer": "cell proliferation",
+    "explanation": "세포 분열을 통해 세포 수가 증가하는 현상.",
+    "source": "김양석 의학용어 | PDF 40쪽 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:e169db5c3932dc32",
+    "prompt": "탁솔·파클리탁셀",
+    "answer": "Taxol; paclitaxel",
+    "explanation": "미세소관의 동역학에 작용해 세포분열을 방해하는 항암제. 세포자멸사 유도 사례로 언급된다.",
+    "source": "김양석 의학용어 | 녹취 2 | 뇌공등과 면역·암 | 학습 중요도 B",
+    "section": "뇌공등과 면역·암",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌공등과 면역·암"
+    ]
+  },
+  {
+    "id": "kimyangseok:3aab00ab90e449de",
+    "prompt": "에피카테킨",
+    "answer": "epicatechin (EC)",
+    "explanation": "녹차에 포함되는 카테킨류 폴리페놀의 하나.",
+    "source": "김양석 의학용어 | PDF 42,43쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:b5296068cbc3bc30",
+    "prompt": "에피카테킨 갈레이트",
+    "answer": "epicatechin gallate (ECG)",
+    "explanation": "에피카테킨에 갈레이트가 결합한 카테킨류 성분.",
+    "source": "김양석 의학용어 | PDF 42,43쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:bec3deca57e30564",
+    "prompt": "에피갈로카테킨",
+    "answer": "epigallocatechin (EGC)",
+    "explanation": "녹차에 포함되는 카테킨류 성분으로 EGCG와 구분한다.",
+    "source": "김양석 의학용어 | PDF 42,43쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:ebc933fdb1a5aea9",
+    "prompt": "면역결핍 생쥐",
+    "answer": "immunodeficient mouse",
+    "explanation": "면역 기능이 저하되어 이종 세포나 조직의 생착을 돕는 실험용 생쥐.",
+    "source": "김양석 의학용어 | PDF 46,47쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:623a3db23bd351a8",
+    "prompt": "종양 세포주",
+    "answer": "tumor cell line",
+    "explanation": "실험실에서 지속적으로 배양하여 연구에 사용하는 종양 세포 집단.",
+    "source": "김양석 의학용어 | PDF 47쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:c704e239b61d0a83",
+    "prompt": "발암물질",
+    "answer": "carcinogen",
+    "explanation": "암 발생 위험을 높일 수 있는 물질이나 요인.",
+    "source": "김양석 의학용어 | PDF 45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:b54a0392879413c7",
+    "prompt": "종양 발생",
+    "answer": "tumorigenesis",
+    "explanation": "정상 조직에서 종양이 형성되는 과정.",
+    "source": "김양석 의학용어 | PDF 45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:678a0641fb1b1f5c",
+    "prompt": "종양 촉진",
+    "answer": "tumor promotion",
+    "explanation": "이미 변화를 겪은 세포의 증식·확장을 촉진하여 종양 형성을 돕는 단계.",
+    "source": "김양석 의학용어 | PDF 45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:5cbc572c1c78b5a5",
+    "prompt": "돌연변이",
+    "answer": "mutation",
+    "explanation": "유전물질의 염기서열에 생기는 변화.",
+    "source": "김양석 의학용어 | PDF 45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:1e10b6e8b717d378",
+    "prompt": "돌연변이 유발물질",
+    "answer": "mutagen",
+    "explanation": "유전물질의 돌연변이 발생을 증가시키는 물질이나 인자.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:02881618f979beb8",
+    "prompt": "항돌연변이 작용",
+    "answer": "antimutagenic activity",
+    "explanation": "돌연변이 유발을 억제하거나 감소시키는 작용.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:362028ab9e2d6289",
+    "prompt": "간세포암",
+    "answer": "hepatocellular carcinoma / hepatocarcinoma",
+    "explanation": "간세포에서 유래하는 악성 종양.",
+    "source": "김양석 의학용어 | PDF 45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:68b1495a43d99171",
+    "prompt": "폐암",
+    "answer": "lung cancer",
+    "explanation": "폐에서 발생하는 악성 종양.",
+    "source": "김양석 의학용어 | PDF 45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:8a6b288cd9a6af57",
+    "prompt": "피부암",
+    "answer": "skin cancer",
+    "explanation": "피부의 세포에서 발생하는 악성 종양.",
+    "source": "김양석 의학용어 | PDF 45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:6f699c16622b7920",
+    "prompt": "백혈병",
+    "answer": "leukemia",
+    "explanation": "혈액 생성 세포에서 발생하는 악성 질환. 슬라이드 도해의 분류와 달리 일반적으로 자가면역질환으로 분류하지 않는다.",
+    "source": "김양석 의학용어 | PDF 26,45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:9f8715ca64249e20",
+    "prompt": "경구 섭취",
+    "answer": "oral consumption / oral intake",
+    "explanation": "입을 통해 물질을 먹거나 마시는 것.",
+    "source": "김양석 의학용어 | PDF 45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:8a313f17b399188b",
+    "prompt": "미토콘드리아 경유 세포자멸사",
+    "answer": "mitochondrial pathway of apoptosis",
+    "explanation": "미토콘드리아의 변화와 신호 단백질 방출을 통해 진행되는 내인성 세포자멸사 경로.",
+    "source": "김양석 의학용어 | PDF 42,45,48쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:bbc0c37300a134f1",
+    "prompt": "미토콘드리아",
+    "answer": "mitochondrion",
+    "explanation": "에너지 대사와 세포자멸사 조절 등에 관여하는 세포소기관.",
+    "source": "김양석 의학용어 | PDF 45,49쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:70d07bf0cb0260db",
+    "prompt": "산화 촉진 작용",
+    "answer": "pro-oxidant activity / pro-oxidation",
+    "explanation": "산화 반응이나 활성산소 생성을 촉진하는 작용. 항산화 작용과 구별한다.",
+    "source": "김양석 의학용어 | PDF 52,66쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:e5a96e91d1b62639",
+    "prompt": "외인성 물질",
+    "answer": "xenobiotic",
+    "explanation": "생체에 원래 존재하지 않는 외부 유래 화학물질.",
+    "source": "김양석 의학용어 | PDF 45,49쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:4b23c261ba8fcd1f",
+    "prompt": "외인성 물질 대사효소",
+    "answer": "xenobiotic-metabolizing enzyme",
+    "explanation": "약물 등 외부 유래 물질의 화학적 변환에 관여하는 효소.",
+    "source": "김양석 의학용어 | PDF 45쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:c5492d28ce4bf06e",
+    "prompt": "효소",
+    "answer": "enzyme",
+    "explanation": "생화학 반응을 촉진하는 촉매. 대부분 단백질이며 일부 RNA도 효소 작용을 한다.",
+    "source": "김양석 의학용어 | 녹취 4 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:4e51fbe0bd373e84",
+    "prompt": "단백질",
+    "answer": "protein",
+    "explanation": "아미노산으로 구성되어 구조·촉매·신호 등 다양한 기능을 수행하는 분자.",
+    "source": "김양석 의학용어 | 녹취 1,4 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:e5393393e4c235c0",
+    "prompt": "디옥시리보핵산",
+    "answer": "deoxyribonucleic acid (DNA)",
+    "explanation": "유전정보를 저장하는 핵산.",
+    "source": "김양석 의학용어 | 녹취 1,2 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:4bdaa50b25895166",
+    "prompt": "리보핵산",
+    "answer": "ribonucleic acid (RNA)",
+    "explanation": "유전정보의 전달·발현·조절 등에 관여하는 핵산.",
+    "source": "김양석 의학용어 | 녹취 1 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:5f3468fb3d8f154e",
+    "prompt": "일차 암 예방",
+    "answer": "primary cancer prevention",
+    "explanation": "암이 생기기 전에 위험 요인을 줄여 발생을 예방하는 접근.",
+    "source": "김양석 의학용어 | PDF 51쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:e6ee0effa12bf10a",
+    "prompt": "이차 암 예방",
+    "answer": "secondary cancer prevention",
+    "explanation": "조기 발견과 조기 치료를 통해 암의 진행과 피해를 줄이는 접근.",
+    "source": "김양석 의학용어 | PDF 51쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:2965a5c72337e8b8",
+    "prompt": "삼차 암 예방",
+    "answer": "tertiary cancer prevention",
+    "explanation": "암 진단·치료 이후 재발·합병증·장애 등을 줄이는 접근.",
+    "source": "김양석 의학용어 | PDF 51쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:122b24b152d5cc01",
+    "prompt": "조기 진단",
+    "answer": "early diagnosis",
+    "explanation": "질환이 진행되기 전에 발견하고 진단하는 것.",
+    "source": "김양석 의학용어 | PDF 51쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:d90297910aea65b2",
+    "prompt": "치아우식증·충치",
+    "answer": "dental caries",
+    "explanation": "구강 세균이 생성하는 산 등에 의해 치아 경조직이 손상되는 질환.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:d12468406f09cdd8",
+    "prompt": "황색포도알균",
+    "answer": "Staphylococcus aureus",
+    "explanation": "피부·연조직 등 여러 부위의 감염을 일으킬 수 있는 세균.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:4ee1ee6aab0b42b2",
+    "prompt": "중파장 자외선",
+    "answer": "ultraviolet B (UVB)",
+    "explanation": "피부 홍반과 DNA 손상 등에 관여하는 자외선 영역.",
+    "source": "김양석 의학용어 | PDF 54,55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:34615ddbe9caf311",
+    "prompt": "국소 도포",
+    "answer": "topical application",
+    "explanation": "피부 등 특정 부위 표면에 물질을 적용하는 방법.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:d070d980493d730d",
+    "prompt": "홍반",
+    "answer": "erythema",
+    "explanation": "혈관 확장 등으로 피부가 붉어지는 현상.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:4988a41e695d2ef1",
+    "prompt": "프로스타글란딘",
+    "answer": "prostaglandin",
+    "explanation": "염증·혈관·통증 등 다양한 생리 과정에 관여하는 지질성 신호물질.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:e8bd28efc73da7c5",
+    "prompt": "백혈구 침윤",
+    "answer": "leukocyte infiltration",
+    "explanation": "혈액의 백혈구가 조직 안으로 이동하여 모이는 현상.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:7a5c81b922092e72",
+    "prompt": "광노화",
+    "answer": "photoaging",
+    "explanation": "반복적인 빛, 특히 자외선 노출에 의해 피부 노화가 촉진되는 현상.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:40216658da721f74",
+    "prompt": "운동 대사",
+    "answer": "exercise metabolism",
+    "explanation": "운동 중 및 운동에 적응하면서 나타나는 에너지·물질 대사.",
+    "source": "김양석 의학용어 | PDF 54,55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:ef37ba7c7a6789c7",
+    "prompt": "지구력",
+    "answer": "endurance",
+    "explanation": "신체 활동을 지속적으로 수행할 수 있는 능력.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:246dc08e41dddbb3",
+    "prompt": "당화혈색소",
+    "answer": "glycated hemoglobin (HbA1c)",
+    "explanation": "포도당이 결합한 헤모글로빈으로 최근 수개월의 평균 혈당 상태를 반영하는 지표.",
+    "source": "김양석 의학용어 | 녹취 5 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:5ea5e3baf416f532",
+    "prompt": "포도당 운반체",
+    "answer": "glucose transporter",
+    "explanation": "포도당의 세포막 통과를 담당하는 막 단백질.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:4a668ed8494ae7af",
+    "prompt": "골격근",
+    "answer": "skeletal muscle",
+    "explanation": "뼈에 연결되어 신체 움직임과 에너지 대사에 관여하는 근육.",
+    "source": "김양석 의학용어 | PDF 55쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:a9610b232854f605",
+    "prompt": "출혈 장애",
+    "answer": "bleeding disorder",
+    "explanation": "정상적인 지혈이 어려워 출혈이 쉽게 발생하거나 오래 지속되는 상태.",
+    "source": "김양석 의학용어 | PDF 53쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:ebb833c9f03c2585",
+    "prompt": "불안장애",
+    "answer": "anxiety disorder",
+    "explanation": "과도한 불안이나 공포가 지속되어 일상 기능을 방해하는 질환군.",
+    "source": "김양석 의학용어 | PDF 53쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:585d19ff3aa35a13",
+    "prompt": "과민성장증후군",
+    "answer": "irritable bowel syndrome (IBS)",
+    "explanation": "반복적인 복통과 배변 습관 변화 등이 나타나는 장-뇌 상호작용 장애.",
+    "source": "김양석 의학용어 | PDF 53쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:0b4943ff281759cf",
+    "prompt": "골다공증",
+    "answer": "osteoporosis",
+    "explanation": "뼈의 강도가 저하되어 골절 위험이 증가하는 질환.",
+    "source": "김양석 의학용어 | PDF 53쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:c5f6ed059aa2a7cf",
+    "prompt": "결합 부위",
+    "answer": "binding site",
+    "explanation": "리간드나 약물이 결합하는 분자상의 특정 위치.",
+    "source": "김양석 의학용어 | PDF 56,57쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:d9385e521b5f4dd1",
+    "prompt": "세포막",
+    "answer": "cell membrane / plasma membrane",
+    "explanation": "세포 안팎을 구분하며 물질 수송과 신호전달을 조절하는 막. 동물 세포의 세포벽과 혼동하지 않는다.",
+    "source": "김양석 의학용어 | PDF 70,87쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:0c94931e10741a8e",
+    "prompt": "세포벽",
+    "answer": "cell wall",
+    "explanation": "세균 등에서 세포막 바깥에 존재하는 지지 구조. 사람 세포에는 없다.",
+    "source": "김양석 의학용어 | PDF 14,59쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:c871db59d834c4e7",
+    "prompt": "이차 전달자",
+    "answer": "second messenger",
+    "explanation": "수용체가 받은 신호를 세포 내부에서 전달·증폭하는 작은 분자나 이온.",
+    "source": "김양석 의학용어 | PDF 87쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:9a7ef43715079cef",
+    "prompt": "유전자 발현",
+    "answer": "gene expression",
+    "explanation": "유전정보가 RNA 또는 단백질 등 기능적 산물로 나타나는 과정.",
+    "source": "김양석 의학용어 | PDF 70,87쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:e2e3dad75967558b",
+    "prompt": "세포핵",
+    "answer": "nucleus",
+    "explanation": "진핵세포에서 유전정보를 보관하고 유전자 발현을 조절하는 소기관.",
+    "source": "김양석 의학용어 | PDF 70,87쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:934cfd21bdfb34fc",
+    "prompt": "세포질액",
+    "answer": "cytosol",
+    "explanation": "세포 안에서 소기관을 제외한 액상 부분.",
+    "source": "김양석 의학용어 | PDF 87쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:89769b28faf80835",
+    "prompt": "파킨슨병",
+    "answer": "Parkinson disease",
+    "explanation": "도파민 신경세포의 퇴행과 관련하여 운동완만·경직·떨림 등이 나타나는 질환.",
+    "source": "김양석 의학용어 | PDF 58쪽; 녹취 4 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:a158d9a6ecaa0085",
+    "prompt": "주의력결핍 과잉행동장애",
+    "answer": "attention-deficit/hyperactivity disorder (ADHD)",
+    "explanation": "부주의·과잉행동·충동성 등이 지속되어 기능에 영향을 주는 신경발달장애.",
+    "source": "김양석 의학용어 | PDF 58쪽; 녹취 4 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:87c1d863a9795f88",
+    "prompt": "치매",
+    "answer": "dementia",
+    "explanation": "인지 기능 저하가 일상생활의 독립성을 방해하는 증후군.",
+    "source": "김양석 의학용어 | 녹취 4 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:417b36f657656ed7",
+    "prompt": "알츠하이머병",
+    "answer": "Alzheimer disease",
+    "explanation": "진행성 인지 저하를 일으키는 신경퇴행성 질환으로 치매의 주요 원인이다.",
+    "source": "김양석 의학용어 | PDF 58쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:0ece199462f8d167",
+    "prompt": "우울증",
+    "answer": "depression",
+    "explanation": "지속적인 우울감이나 흥미 저하 등을 특징으로 하는 정신질환.",
+    "source": "김양석 의학용어 | PDF 58쪽; 녹취 4 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:a2b8af5be3457242",
+    "prompt": "도파민",
+    "answer": "dopamine (DA)",
+    "explanation": "운동·동기·보상 등 다양한 뇌 기능에 관여하는 신경전달물질.",
+    "source": "김양석 의학용어 | PDF 58쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:2a5f2d148be58a32",
+    "prompt": "노르에피네프린",
+    "answer": "norepinephrine (NE) / noradrenaline",
+    "explanation": "교감신경 신호와 각성 등에 관여하는 신경전달물질 및 호르몬.",
+    "source": "김양석 의학용어 | PDF 58쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:081f89fcd486308c",
+    "prompt": "세로토닌",
+    "answer": "serotonin / 5-hydroxytryptamine (5-HT)",
+    "explanation": "기분·수면·감각 등 다양한 기능에 관여하는 신경전달물질.",
+    "source": "김양석 의학용어 | PDF 58쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:44fd699b457f41fb",
+    "prompt": "아세틸콜린",
+    "answer": "acetylcholine (ACh)",
+    "explanation": "신경근 접합부·자율신경계·중추신경계에서 신호를 전달하는 물질.",
+    "source": "김양석 의학용어 | PDF 58쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:fc194155f84a2b85",
+    "prompt": "시냅스",
+    "answer": "synapse",
+    "explanation": "신경세포가 다른 세포와 신호를 주고받는 접합 부위.",
+    "source": "김양석 의학용어 | PDF 58쪽 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:46cdca8a7ac8517f",
+    "prompt": "콜레스테롤",
+    "answer": "cholesterol",
+    "explanation": "세포막과 스테로이드 호르몬 등의 구성·합성에 필요한 지질.",
+    "source": "김양석 의학용어 | PDF 55,66쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:e2edafc0aba1bed1",
+    "prompt": "콜레스테롤 저하 효과",
+    "answer": "hypocholesterolemic effect",
+    "explanation": "혈중 콜레스테롤 농도를 낮추는 효과.",
+    "source": "김양석 의학용어 | PDF 66쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:fc22d7fd01910258",
+    "prompt": "혈소판",
+    "answer": "platelet",
+    "explanation": "혈액 응고와 지혈에 관여하는 세포 조각.",
+    "source": "김양석 의학용어 | PDF 66쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:6dc9a09bb92e5896",
+    "prompt": "혈소판 부착성",
+    "answer": "platelet stickiness / platelet adhesiveness",
+    "explanation": "혈소판이 손상된 혈관벽 등에 달라붙는 성질. 강의 원문의 표현이다.",
+    "source": "김양석 의학용어 | PDF 66쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:216e98307e249786",
+    "prompt": "죽상판·플라크",
+    "answer": "atherosclerotic plaque",
+    "explanation": "동맥벽에 지질·세포·섬유조직 등이 축적된 병변.",
+    "source": "김양석 의학용어 | PDF 67,86쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:1b55e493a7939570",
+    "prompt": "거품세포",
+    "answer": "foam cell",
+    "explanation": "지질을 많이 축적하여 거품처럼 보이는 세포로 죽상경화 병변에 나타난다.",
+    "source": "김양석 의학용어 | PDF 67쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:f678e63947ba3d52",
+    "prompt": "혈전",
+    "answer": "thrombus / blood clot",
+    "explanation": "혈관 안에서 혈액 성분이 응고하여 형성된 덩어리.",
+    "source": "김양석 의학용어 | PDF 67,86쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:c196a0e3f25431f8",
+    "prompt": "스텐트",
+    "answer": "stent",
+    "explanation": "좁아진 혈관 등의 통로를 지지하여 열어 두는 구조물.",
+    "source": "김양석 의학용어 | 녹취 5 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:4d7445b4cf8feca5",
+    "prompt": "뇌졸중",
+    "answer": "stroke",
+    "explanation": "뇌혈관의 폐색 또는 출혈로 갑자기 신경학적 손상이 발생하는 질환.",
+    "source": "김양석 의학용어 | PDF 66쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:e9b52f31fc48cb25",
+    "prompt": "비만",
+    "answer": "obesity",
+    "explanation": "건강을 해칠 수 있을 정도로 체지방이 과도하게 축적된 상태.",
+    "source": "김양석 의학용어 | PDF 66쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:624dbf7e4df659f5",
+    "prompt": "신경퇴행",
+    "answer": "neurodegeneration",
+    "explanation": "신경세포의 구조나 기능이 점차 손상·소실되는 과정.",
+    "source": "김양석 의학용어 | PDF 66쪽 | 녹차와 심혈관 | 학습 중요도 B",
+    "section": "녹차와 심혈관",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 심혈관"
+    ]
+  },
+  {
+    "id": "kimyangseok:213cdf4e379bcfc1",
+    "prompt": "시스템생물학",
+    "answer": "systems biology",
+    "explanation": "생체 구성 요소들의 상호작용을 전체 시스템 수준에서 분석하는 학문.",
+    "source": "김양석 의학용어 | PDF 71,72쪽; 녹취 5 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:a07fc7cfe09a6355",
+    "prompt": "계산생물학",
+    "answer": "computational biology",
+    "explanation": "계산·수학적 모형과 분석으로 생물학적 현상을 연구하는 분야.",
+    "source": "김양석 의학용어 | 녹취 5 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:2eb29ddaa5220595",
+    "prompt": "생물정보학",
+    "answer": "bioinformatics",
+    "explanation": "생물학적 데이터를 저장·처리·분석하기 위한 정보학적 방법을 다루는 분야.",
+    "source": "김양석 의학용어 | 녹취 5 | 녹차와 신호전달 | 학습 중요도 B",
+    "section": "녹차와 신호전달",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "녹차와 신호전달"
+    ]
+  },
+  {
+    "id": "kimyangseok:9225c53f41963c2b",
+    "prompt": "근육 사이",
+    "answer": "intermuscular",
+    "explanation": "서로 다른 근육과 근육 사이에 위치하는 것을 뜻한다.",
+    "source": "김양석 의학용어 | PDF 77쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:c90b26287b177274",
+    "prompt": "근육 내",
+    "answer": "intramuscular",
+    "explanation": "근육 내부에 위치하거나 적용되는 것을 뜻한다.",
+    "source": "김양석 의학용어 | PDF 77쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:87586cf770eaf283",
+    "prompt": "국소 연축 반응",
+    "answer": "local twitch response",
+    "explanation": "통증유발점 등을 자극할 때 근섬유가 순간적으로 수축하는 반응.",
+    "source": "김양석 의학용어 | PDF 77쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:6394e78c5dd8b8ef",
+    "prompt": "연관통",
+    "answer": "referred pain",
+    "explanation": "원인이 있는 부위와 다른 위치에서 느껴지는 통증.",
+    "source": "김양석 의학용어 | PDF 77쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:9f7708f8ff19dcc7",
+    "prompt": "경락을 따른 감각 전파",
+    "answer": "propagated sensation along the meridians",
+    "explanation": "침 자극 후 경락 방향 등으로 감각이 퍼진다고 보고되는 현상.",
+    "source": "김양석 의학용어 | PDF 77쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:bffe76a647b5aebd",
+    "prompt": "생체역학",
+    "answer": "biomechanics",
+    "explanation": "생체 조직과 움직임을 힘·변형 등 역학 관점에서 연구하는 분야.",
+    "source": "김양석 의학용어 | PDF 77쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:41f0d68aebe48f39",
+    "prompt": "형광 추적자",
+    "answer": "fluorescent tracer",
+    "explanation": "형광 신호로 물질의 위치나 이동을 추적하는 표지 물질.",
+    "source": "김양석 의학용어 | 녹취 5 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:33f3681d199ef570",
+    "prompt": "관상동맥 부분 결찰",
+    "answer": "partial coronary ligation",
+    "explanation": "관상동맥을 부분적으로 묶어 혈류를 제한하는 실험적 처치.",
+    "source": "김양석 의학용어 | PDF 85쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:ba28e187ec9c80e8",
+    "prompt": "고양이 모델",
+    "answer": "feline model",
+    "explanation": "고양이를 이용하여 질환이나 생리 현상을 연구하는 실험 모델.",
+    "source": "김양석 의학용어 | PDF 85쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:d4f892fce362bdbd",
+    "prompt": "체성 구심성 신경",
+    "answer": "somatic afferent nerve",
+    "explanation": "피부·근육 등에서 중추신경계로 감각 정보를 전달하는 신경.",
+    "source": "김양석 의학용어 | PDF 85쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:bedc872c98a8b16e",
+    "prompt": "델타 오피오이드 수용체",
+    "answer": "delta-opioid receptor (DOR)",
+    "explanation": "오피오이드 수용체 아형 중 하나. 강의 원문에서는 침의 심혈관 조절 기전과 관련하여 등장한다.",
+    "source": "김양석 의학용어 | PDF 85쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:7b08083f9d0cdea6",
+    "prompt": "카파 오피오이드 수용체",
+    "answer": "kappa-opioid receptor (KOR)",
+    "explanation": "오피오이드 수용체의 한 아형. 원문의 해당 실험에서는 뮤·델타와 달리 관여하지 않은 것으로 기술된다.",
+    "source": "김양석 의학용어 | PDF 85쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:f24f78b72c42f504",
+    "prompt": "부교감신경계",
+    "answer": "parasympathetic nervous system",
+    "explanation": "휴식·소화 등 장기 기능 조절에 관여하는 자율신경계 부분.",
+    "source": "김양석 의학용어 | 녹취 6 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:a539347258f814fc",
+    "prompt": "항상성",
+    "answer": "homeostasis",
+    "explanation": "변하는 환경 속에서 생체 내부 상태를 일정 범위로 유지하는 성질.",
+    "source": "김양석 의학용어 | 녹취 6 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:58152c082d5b9b08",
+    "prompt": "모르핀",
+    "answer": "morphine",
+    "explanation": "오피오이드 수용체에 작용하는 진통제. 수용체 설명 그림에 등장한다.",
+    "source": "김양석 의학용어 | PDF 88쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:60db441c0f3fedce",
+    "prompt": "아편계 물질",
+    "answer": "opiate",
+    "explanation": "전통적으로 아편 유래 알칼로이드를 가리키는 말. 더 넓은 개념인 opioid와 구별할 수 있다.",
+    "source": "김양석 의학용어 | PDF 84쪽; 녹취 5 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:c5b3fb57be4608eb",
+    "prompt": "오피오이드",
+    "answer": "opioid",
+    "explanation": "오피오이드 수용체에 작용하는 내인성·천연·합성 물질의 통칭.",
+    "source": "김양석 의학용어 | PDF 88,98쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:69f11f670e9fee68",
+    "prompt": "원심성 신경",
+    "answer": "efferent nerve",
+    "explanation": "중추신경계에서 말초의 기관이나 조직으로 신호를 전달하는 신경.",
+    "source": "김양석 의학용어 | PDF 89쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:a9f956a71f6c5ab2",
+    "prompt": "척수 상위 경로",
+    "answer": "supraspinal pathway",
+    "explanation": "척수보다 위의 뇌 구조가 관여하는 신경 경로.",
+    "source": "김양석 의학용어 | PDF 100쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:9ab440d7731a24be",
+    "prompt": "반사 반응",
+    "answer": "reflex response",
+    "explanation": "자극에 대해 신경회로를 통해 일어나는 비교적 자동적인 반응.",
+    "source": "김양석 의학용어 | PDF 85,100쪽 | 침술과 신경기전 | 학습 중요도 B",
+    "section": "침술과 신경기전",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "침술과 신경기전"
+    ]
+  },
+  {
+    "id": "kimyangseok:4c8cf2514ffdf482",
+    "prompt": "진짜침",
+    "answer": "verum acupuncture",
+    "explanation": "연구에서 평가하려는 실제 침 중재를 뜻하며 모의침과 대비한다.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:5fa8ca4058e55c15",
+    "prompt": "뇌하수체 전엽",
+    "answer": "anterior pituitary",
+    "explanation": "ACTH 등 여러 호르몬을 분비하는 뇌하수체의 앞부분.",
+    "source": "김양석 의학용어 | PDF 95,96쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:31882e73255ab9cc",
+    "prompt": "부신피질",
+    "answer": "adrenal cortex",
+    "explanation": "코르티솔 등 스테로이드 호르몬을 합성·분비하는 부신의 바깥층.",
+    "source": "김양석 의학용어 | PDF 95,96쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:6a95a6983c91816c",
+    "prompt": "글루코코르티코이드",
+    "answer": "glucocorticoid",
+    "explanation": "포도당 대사와 면역·염증 반응 조절에 관여하는 코르티코스테로이드 계열.",
+    "source": "김양석 의학용어 | PDF 94쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:6a9ae0df2aca30f0",
+    "prompt": "미페프리스톤",
+    "answer": "mifepristone (RU486)",
+    "explanation": "프로게스테론·글루코코르티코이드 수용체 길항 작용을 가진 약물. 원문에서는 호르몬 경로 차단 도구로 등장한다.",
+    "source": "김양석 의학용어 | PDF 93,99쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:4d1fbf93fe869222",
+    "prompt": "오피오이드 유발 통각과민",
+    "answer": "opioid-induced hyperalgesia (OIH)",
+    "explanation": "오피오이드 사용과 관련하여 통증 민감도가 역설적으로 증가하는 현상.",
+    "source": "김양석 의학용어 | PDF 98쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:0d218b5b99e96f89",
+    "prompt": "혈장",
+    "answer": "plasma",
+    "explanation": "혈구를 제외한 혈액의 액체 성분. 호르몬 농도 측정의 검체로 사용된다.",
+    "source": "김양석 의학용어 | PDF 93,99쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:3979f9280b3574fa",
+    "prompt": "부인과학",
+    "answer": "gynecology",
+    "explanation": "여성 생식기관과 관련 질환을 다루는 의학 분야.",
+    "source": "김양석 의학용어 | PDF 100쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:ed0b3d4c7e8205d8",
+    "prompt": "난소 교감신경",
+    "answer": "ovarian sympathetic nerves",
+    "explanation": "난소의 혈류와 기능 조절에 관여하는 교감신경.",
+    "source": "김양석 의학용어 | PDF 100쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:18d9404e66c5f18d",
+    "prompt": "안드로겐",
+    "answer": "androgen",
+    "explanation": "남성 성징 발현 등에 관여하는 스테로이드 호르몬군으로 여성에게도 존재한다.",
+    "source": "김양석 의학용어 | PDF 101쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:09545ad70edf8311",
+    "prompt": "테스토스테론",
+    "answer": "testosterone",
+    "explanation": "주요 안드로겐의 하나. 성기능·생식·근육 등 다양한 생리 과정에 관여한다.",
+    "source": "김양석 의학용어 | PDF 45,103쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:58678229c39ce6e4",
+    "prompt": "복부비만",
+    "answer": "abdominal obesity",
+    "explanation": "복부에 지방이 과도하게 축적된 상태.",
+    "source": "김양석 의학용어 | PDF 101쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:1c846cc9364ff290",
+    "prompt": "대사증후군",
+    "answer": "metabolic syndrome (MetS)",
+    "explanation": "복부비만·혈압·혈당·지질 이상 등의 위험 요인이 함께 나타나는 상태.",
+    "source": "김양석 의학용어 | PDF 61,101쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:b49a52e6d379e168",
+    "prompt": "내분비질환",
+    "answer": "endocrine disorder",
+    "explanation": "호르몬의 분비나 작용에 이상이 생긴 질환.",
+    "source": "김양석 의학용어 | PDF 101쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:615058cceaa7ef5e",
+    "prompt": "대사질환",
+    "answer": "metabolic disorder",
+    "explanation": "에너지나 물질의 생성·이용·저장 과정에 이상이 생긴 질환.",
+    "source": "김양석 의학용어 | PDF 101쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:2352ee03ccb96e47",
+    "prompt": "병인",
+    "answer": "etiology",
+    "explanation": "질환이 발생하는 원인 또는 그 원인을 연구하는 분야.",
+    "source": "김양석 의학용어 | PDF 101쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:d03e41da12522244",
+    "prompt": "저주파 전침",
+    "answer": "low-frequency electroacupuncture",
+    "explanation": "낮은 빈도의 전기 펄스로 자극하는 전침. 강의 연구에서는 2 Hz가 사용되었다.",
+    "source": "김양석 의학용어 | PDF 101쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:eab8045a36965612",
+    "prompt": "신경내분비",
+    "answer": "neuroendocrine",
+    "explanation": "신경계와 내분비계가 서로 연결되어 기능하는 것에 관한 용어.",
+    "source": "김양석 의학용어 | PDF 101쪽 | 호르몬과 부인과 | 학습 중요도 B",
+    "section": "호르몬과 부인과",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "호르몬과 부인과"
+    ]
+  },
+  {
+    "id": "kimyangseok:0be68dec98fcb3da",
+    "prompt": "비침습적",
+    "answer": "noninvasive",
+    "explanation": "절개나 체내 기구 삽입 등을 하지 않고 검사·평가하는 특성.",
+    "source": "김양석 의학용어 | PDF 107쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:475eb1f439e55523",
+    "prompt": "혈류역학",
+    "answer": "hemodynamics",
+    "explanation": "혈액의 흐름·압력과 관련된 물리적·생리적 현상.",
+    "source": "김양석 의학용어 | PDF 107쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:df6c1eb30d6ebe27",
+    "prompt": "공간 해상도",
+    "answer": "spatial resolution",
+    "explanation": "공간적으로 가까운 두 지점이나 구조를 구별할 수 있는 정도.",
+    "source": "김양석 의학용어 | PDF 107쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:319a73fabf757fb4",
+    "prompt": "시간 해상도",
+    "answer": "temporal resolution",
+    "explanation": "시간상 가까운 변화를 구별하여 측정할 수 있는 정도.",
+    "source": "김양석 의학용어 | PDF 107쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:e4313a2190e98a3f",
+    "prompt": "항통각 작용",
+    "answer": "antinociception",
+    "explanation": "유해 자극에 대한 신경계의 통각 처리나 반응을 억제하는 것.",
+    "source": "김양석 의학용어 | PDF 107쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:b467e162f9707e53",
+    "prompt": "변연계",
+    "answer": "limbic system",
+    "explanation": "감정·기억·동기 등과 관련된 여러 뇌 구조의 기능적 집합.",
+    "source": "김양석 의학용어 | PDF 107쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:15f3884b932bfe59",
+    "prompt": "대뇌피질",
+    "answer": "cerebral cortex",
+    "explanation": "대뇌 표면의 신경세포층으로 감각·운동·인지 등에 관여한다.",
+    "source": "김양석 의학용어 | PDF 107쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:cdafbd5a6f97e4fb",
+    "prompt": "피질하 영역",
+    "answer": "subcortical region",
+    "explanation": "대뇌피질 아래에 위치하는 뇌 영역.",
+    "source": "김양석 의학용어 | PDF 107쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:9e04421160adf5d9",
+    "prompt": "중뇌수도관주위회색질",
+    "answer": "periaqueductal gray (PAG)",
+    "explanation": "중뇌 수도관 주변의 회색질로 하행성 통증 조절 등에 관여한다.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:f1fb9a80bd76b04d",
+    "prompt": "편도체",
+    "answer": "amygdala",
+    "explanation": "정서와 위협 처리 및 정서적 기억 등에 관여하는 뇌 구조.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:c0b45ad74ba5692c",
+    "prompt": "해마 형성체",
+    "answer": "hippocampal formation",
+    "explanation": "해마 및 관련 구조를 포함하며 기억 형성 등에 관여하는 영역.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:70a7d3a9c154d106",
+    "prompt": "중간측두이랑",
+    "answer": "middle temporal gyrus",
+    "explanation": "측두엽의 이랑 중 하나로 의미 처리 등 여러 기능에 관여한다.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:27a7d13e4ed7a66d",
+    "prompt": "내수용감각",
+    "answer": "interoception",
+    "explanation": "심장박동 등 몸 내부 상태에 대한 감각과 인식.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:5fd330495ea4f4d8",
+    "prompt": "자기참조 인지",
+    "answer": "self-referential cognition",
+    "explanation": "자신의 경험·감정·특성과 관련지어 정보를 처리하는 인지 과정.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:ae22f6632c3e8698",
+    "prompt": "체성감각",
+    "answer": "somatosensation",
+    "explanation": "촉각·압각·온도·통증·고유감각 등 몸에서 오는 감각의 통칭.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:4bb59a65eae9b0c5",
+    "prompt": "과활성화",
+    "answer": "hyperactivation",
+    "explanation": "특정 자극이나 상태에 대한 활동이 과도하게 증가하는 것.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  },
+  {
+    "id": "kimyangseok:6da8b832ec7533d9",
+    "prompt": "손가락 피질 표상",
+    "answer": "cortical finger representation",
+    "explanation": "대뇌피질에서 손가락의 감각이나 운동에 대응하는 공간적·기능적 표현.",
+    "source": "김양석 의학용어 | PDF 115쪽 | 뇌영상과 통증 | 학습 중요도 B",
+    "section": "뇌영상과 통증",
+    "tier": "B",
+    "tags": [
+      "KYS2026",
+      "tier_B",
+      "뇌영상과 통증"
+    ]
+  }
+]

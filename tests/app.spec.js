@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 
 const imageCards = JSON.parse(readFileSync("public/data/cards.json", "utf8"));
 const oxCards = JSON.parse(readFileSync("public/data/jangbu.json", "utf8"));
+const decks = JSON.parse(readFileSync("public/data/decks.json", "utf8"));
 
 async function openDeck(page, id) {
   await page.locator(`[data-deck="${id}"]`).click();
@@ -26,10 +27,35 @@ async function databaseRows(page, store) {
   }), store);
 }
 
+// The app must finish init first: opening the database earlier creates an empty
+// one and the failed transaction below never settles the promise. The tab bar is
+// rendered only after init, so it also means the stores exist on every screen.
+async function seedSession(page, deckId, cardId) {
+  await expect(page.locator(".deck-tabs")).toBeVisible();
+  await page.evaluate(({ deckId, cardId }) => new Promise((resolve, reject) => {
+    const open = indexedDB.open("major-acupoints");
+    open.onerror = () => reject(open.error);
+    open.onsuccess = () => {
+      const db = open.result;
+      const close = () => db.close();
+      try {
+        const transaction = db.transaction("sessions", "readwrite");
+        transaction.objectStore("sessions").put({ mode: `${deckId}:all`, deckId, cardIds: [cardId], index: 0, revealed: true, chosenAnswer: null });
+        transaction.oncomplete = () => { close(); resolve(); };
+        transaction.onerror = () => { close(); reject(transaction.error); };
+        transaction.onabort = () => { close(); reject(transaction.error); };
+      } catch (error) {
+        close();
+        reject(error);
+      }
+    };
+  }), { deckId, cardId });
+}
+
 test("home opens both decks and keeps empty review modes usable", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "오늘은 어떤 덱을 공부할까요?" })).toBeVisible();
-  await expect(page.locator(".deck-count")).toHaveText(["51장 · 학습 0장", "321장 · 학습 0장", "156장 · 학습 0장", "217장 · 학습 0장", "96장 · 학습 0장"]);
+  await expect(page.locator(".deck-count")).toHaveText(decks.map(deck => `${JSON.parse(readFileSync(`public/${deck.path}`, 'utf8')).length}장 · 학습 0장`));
   await page.getByRole("button", { name: "장부생리 학습하기", exact: true }).click();
   await expect(page.locator(".menu-title")).toHaveText("장부생리");
   await page.locator('[data-mode="fail"]').click();
@@ -145,9 +171,17 @@ test("both decks work offline after the PWA has cached them", async ({ page, con
   });
   expect(cached).toContain("/data/jangbu.json");
   for (const letter of ["a", "b", "c"]) expect(cached).toContain(`/data/kimwoojin-${letter}.json`);
+  for (const letter of ["a", "b", "c"]) expect(cached).toContain(`/data/kimyangseok-${letter}.json`);
   expect(cached).toContain(`/${imageCards[0].frontImage}`);
   await context.setOffline(true);
   await page.reload();
+  for (const letter of ["a", "b", "c"]) {
+    await openDeck(page, `kimyangseok-${letter}`);
+    await startAll(page);
+    await page.getByRole("button", { name: "정답 보기", exact: true }).click();
+    await expect(page.locator(".answer-value")).toBeVisible();
+    await expect(page.locator(".explanation")).toBeVisible();
+  }
   for (const letter of ["a", "b", "c"]) {
     await openDeck(page, `kimwoojin-${letter}`);
     await startAll(page);
@@ -191,11 +225,12 @@ test("small screens keep navigation and answer controls accessible", async ({ pa
   expect(layout).toEqual({ overflow: false, navVisible: true, controlsVisible: true, sourceAccessible: true });
 });
 
-test('vocabulary decks reveal original fields and preserve separate study records', async ({ page }) => {
+for (const author of ['kimwoojin', 'kimyangseok']) {
+test(`${author} vocabulary decks reveal fields and preserve separate study records`, async ({ page }) => {
   await page.goto('/');
   const prompts = {};
   for (const letter of ['a', 'b', 'c']) {
-    const id = `kimwoojin-${letter}`;
+    const id = `${author}-${letter}`;
     const cards = JSON.parse(readFileSync(`public/data/${id}.json`, 'utf8'));
     await openDeck(page, id);
     await startAll(page);
@@ -218,5 +253,30 @@ test('vocabulary decks reveal original fields and preserve separate study record
     await expect(page.locator('.statement')).toHaveText(prompt);
     await expect(page.locator('.answer-panel')).toHaveCount(0);
   }
-  expect((await databaseRows(page, 'sessions')).map(row => row.mode).sort()).toEqual(['kimwoojin-a:all', 'kimwoojin-b:all', 'kimwoojin-c:all']);
+  expect((await databaseRows(page, 'sessions')).map(row => row.mode).sort()).toEqual(['a', 'b', 'c'].map(letter => `${author}-${letter}:all`));
+});
+}
+
+test('Kim Yangseok long answers remain readable on a narrow screen', async ({ page }, testInfo) => {
+  await page.setViewportSize({ width: 320, height: 568 });
+  await page.goto('/');
+  for (const letter of ['a', 'b', 'c']) {
+    const cards = JSON.parse(readFileSync(`public/data/kimyangseok-${letter}.json`, 'utf8'));
+    const card = cards.reduce((longest, current) => current.answer.length + current.explanation.length + current.source.length > longest.answer.length + longest.explanation.length + longest.source.length ? current : longest);
+    // Resume a known long card so the layout check does not depend on shuffle order.
+    await seedSession(page, `kimyangseok-${letter}`, card.id);
+    await page.reload();
+    await openDeck(page, `kimyangseok-${letter}`);
+    await startAll(page);
+    await expect(page.locator('.answer-value')).toHaveText(card.answer);
+    const layout = await page.evaluate(() => {
+      const card = document.querySelector('.card');
+      card.scrollTop = card.scrollHeight;
+      const source = document.querySelector('.source').getBoundingClientRect();
+      const actions = document.querySelector('.actions').getBoundingClientRect();
+      return { overflow: document.documentElement.scrollWidth > innerWidth, controls: actions.bottom <= innerHeight, source: source.bottom <= actions.top };
+    });
+    expect(layout).toEqual({ overflow: false, controls: true, source: true });
+    await page.screenshot({ path: testInfo.outputPath(`kimyangseok-${letter}.png`) });
+  }
 });

@@ -10,7 +10,8 @@
     "pretest": "npm run build",
     "test": "playwright test",
     "import:jangbu": "node scripts/import-jangbu.cjs",
-    "import:kimwoojin": "node scripts/import-kimwoojin.cjs"
+    "import:kimwoojin": "node scripts/import-kimwoojin.cjs",
+    "build:kimyangseok": "node scripts/build-kimyangseok.cjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.64.1",
