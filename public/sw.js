@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "major-acupoints-";
-const CACHE = `${CACHE_PREFIX}v14`;
+const CACHE = `${CACHE_PREFIX}v15`;
 const scope = self.registration.scope;
 const url = (path = "") => new URL(path, scope).toString();
 const CORE = [
@@ -23,7 +23,7 @@ self.addEventListener("install", (event) => {
         const data = await cache.match(url(deck.path));
         return data.json();
       }));
-      const images = [...new Set(allCards.flat().flatMap((card) => [card.frontImage, card.backImage]).filter(Boolean).map(url))];
+      const images = [...new Set(allCards.flat().flatMap((card) => [card.frontImage, card.backImage, card.figure, card.audio]).filter(Boolean).map(url))];
       await cache.addAll(images);
       await self.skipWaiting();
     }),

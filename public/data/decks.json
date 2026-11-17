@@ -57,5 +57,12 @@
     "type": "text",
     "reversed": true,
     "path": "data/kimyangseok-c.json"
+  },
+  {
+    "id": "quiz16",
+    "name": "쪽지시험 · 핵심 16문항",
+    "description": "남성생식기계 · 소화기계 · 비뇨기계 | 원본 그림 · 영어 발음",
+    "type": "text",
+    "path": "data/quiz16.json"
   }
 ]

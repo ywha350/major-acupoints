@@ -341,6 +341,22 @@ function renderCard() {
       const answer = document.createElement("div");
       answer.className = "answer-panel";
       answer.append(text("p", "answer-value", back), text("p", "explanation", card.explanation), text("p", "source", card.source));
+      if (card.audio) {
+        answer.append(text("p", "source", "영어 용어 발음 듣기 · 미국 영어 합성 음성"));
+        const audio = document.createElement("audio");
+        audio.controls = true;
+        audio.preload = "none";
+        audio.src = `${baseUrl}${card.audio}`;
+        audio.setAttribute("aria-label", "영어 용어 발음 듣기");
+        answer.append(audio);
+      }
+      if (card.figure) {
+        const figure = document.createElement("img");
+        figure.src = `${baseUrl}${card.figure}`;
+        figure.alt = "과목별 원본 그림 · 문제 번호와 PPT 출처";
+        figure.loading = "lazy";
+        answer.append(figure);
+      }
       cardElement.append(answer);
     } else {
       cardElement.append(text("p", "answer-hint", activeDeck.reversed ? "한국어 뜻을 떠올린 뒤 정답을 확인하세요." : "영어 용어를 떠올린 뒤 정답을 확인하세요."));

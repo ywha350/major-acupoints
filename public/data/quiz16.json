@@ -1,0 +1,146 @@
+[
+  {
+    "id": "quiz16-1-1",
+    "prompt": "남성생식기계 · 문제 1\n주요 기관의 이름과 해부학적 위치",
+    "answer": "외부 Penis(음경), Scrotum(음낭: 고환을 감싸는 주머니). 내부 Testis(고환: 음낭 속), Epididymis(부고환: 고환 뒤), Vas deferens(정관: 부고환에서 이어짐). 부속샘 위치 Seminal vesicle(정낭: 방광 뒤), Prostate(전립선: 방광 아래), Bulbourethral gland(요도구선: 전립선 아래·요도 근처). 암기 포인트 정자의 이동: 세정관 → 부고환 → 정관 → 사정관(Ejaculatory duct) → 요도(Urethra)",
+    "explanation": "영어 발음: Penis · Scrotum · Testis · Epididymis · Vas deferens · Seminal vesicle · Prostate · Bulbourethral gland · Ejaculatory duct · Urethra",
+    "source": "제공 PDF 2쪽 · PPT 2–3, 7, 10 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-1.png",
+    "audio": "assets/quiz16/quiz16-1-1.mp3"
+  },
+  {
+    "id": "quiz16-1-2",
+    "prompt": "남성생식기계 · 문제 2\nGonad의 개념과 기능",
+    "answer": "Gonad = 생식샘. 남성은 Testis(고환), 여성은 Ovary(난소). 기능 2가지 ① Gametes(생식세포: 정자/난자) 생성 ② Sex hormones(성호르몬) 생성. 고환은 정자 + Androgens(테스토스테론 등) 생성. 음낭은 고환을 약 35℃로 유지해 정자 생성을 돕는다.",
+    "explanation": "영어 발음: Gonad · Testis · Ovary · Gametes · Sex hormones · Androgens",
+    "source": "제공 PDF 2쪽 · PPT 4–6 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-1.png",
+    "audio": "assets/quiz16/quiz16-1-2.mp3"
+  },
+  {
+    "id": "quiz16-1-3",
+    "prompt": "남성생식기계 · 문제 3\nTestis 구조와 Spermatogenesis",
+    "answer": "Testis 안에 꼬불꼬불한 Seminiferous tubules(세정관)이 있으며 정자 생성 장소이다. 정자 생성 5단계 Spermatogonium(정원세포) → Primary spermatocyte(1차 정모세포) → Secondary spermatocyte(2차 정모세포) → Spermatid(정세포) → Spermatozoa(성숙 정자).",
+    "explanation": "영어 발음: Testis · Seminiferous tubules · Spermatogonium · Primary spermatocyte · Secondary spermatocyte · Spermatid · Spermatozoa",
+    "source": "제공 PDF 2쪽 · PPT 7–9 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-1.png",
+    "audio": "assets/quiz16/quiz16-1-3.mp3"
+  },
+  {
+    "id": "quiz16-1-4",
+    "prompt": "남성생식기계 · 문제 4\nSertoli cell과 Leydig cell의 위치·기능",
+    "answer": "Sertoli cell 세정관 안; 정자에 영양 공급·생성 보조. Nursing cell로도 부른다. Leydig cell 세정관 사이(바깥); Testosterone 분비 → 정자 생성 지원. 암기 포인트 Sertoli = 영양·돌봄 / Leydig = 남성호르몬",
+    "explanation": "영어 발음: Sertoli cell · Nursing cell · Leydig cell · Testosterone · Sertoli · Leydig",
+    "source": "제공 PDF 2쪽 · PPT 8–9 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-1.png",
+    "audio": "assets/quiz16/quiz16-1-4.mp3"
+  },
+  {
+    "id": "quiz16-1-5",
+    "prompt": "남성생식기계 · 문제 5\nAccessory glands 종류와 정액 비율",
+    "answer": "Seminal vesicles(정낭) 약 60% / Prostate gland(전립선) 약 30% / Sperm cells(정자) 약 10%. Bulbourethral glands(요도구선)도 분비물을 보태지만 PPT에 별도 비율 없음. 암기 포인트 위 수치는 강의자료의 대략적 표기 그대로 암기",
+    "explanation": "영어 발음: Seminal vesicles · Prostate gland · Sperm cells · Bulbourethral glands · PPT",
+    "source": "제공 PDF 2쪽 · PPT 11 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-1.png",
+    "audio": "assets/quiz16/quiz16-1-5.mp3"
+  },
+  {
+    "id": "quiz16-3-1",
+    "prompt": "소화기계 · 문제 1\n소화기관 명칭과 위치",
+    "answer": "GI tract(소화관) Mouth(입) → Pharynx(인두) → Esophagus(식도) → Stomach(위) → Small intestine(소장) → Large intestine(대장). 부속기관 Salivary glands(침샘: 입 주변), Liver(간: 우상복부), Gallbladder(담낭: 간 아래), Pancreas(췌장: 위 뒤), Tongue(혀: 구강). 소화기계 기능 음식을 기계적·화학적으로 분해하여 세포가 이용할 수 있게 준비.",
+    "explanation": "영어 발음: GI tract · Mouth · Pharynx · Esophagus · Stomach · Small intestine · Large intestine · Salivary glands · Liver · Gallbladder · Pancreas · Tongue",
+    "source": "제공 PDF 4쪽 · PPT 2–3, 5–10 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-3.png",
+    "audio": "assets/quiz16/quiz16-3-1.mp3"
+  },
+  {
+    "id": "quiz16-3-2",
+    "prompt": "소화기계 · 문제 2\n연동운동(Peristalsis)의 개념·역할",
+    "answer": "종주근(Longitudinal muscle)과 환상근(Circular muscle)이 수축·이완을 반복해 음식물을 앞쪽으로 이동시키는 파동성 운동. 식도에서는 음식물을 위로 운반한다.",
+    "explanation": "영어 발음: Longitudinal muscle · Circular muscle",
+    "source": "제공 PDF 4쪽 · PPT 6 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-3.png",
+    "audio": "assets/quiz16/quiz16-3-2.mp3"
+  },
+  {
+    "id": "quiz16-3-3",
+    "prompt": "소화기계 · 문제 3\n소장 구조와 주요 기능",
+    "answer": "소장 3부분 Duodenum(십이지장) → Jejunum(공장) → Ileum(회장). 기능 대부분의 소화와 영양소 흡수가 일어나는 곳. 위에서 유미즙(Chyme), 췌장에서 소화효소, 담낭에서 담즙을 받는다.",
+    "explanation": "영어 발음: Duodenum · Jejunum · Ileum · Chyme",
+    "source": "제공 PDF 4쪽 · PPT 8 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-3.png",
+    "audio": "assets/quiz16/quiz16-3-3.mp3"
+  },
+  {
+    "id": "quiz16-3-4",
+    "prompt": "소화기계 · 문제 4\n소화기 부속기관 종류와 기능",
+    "answer": "침샘 녹말 소화 시작(아밀라아제); 간 담즙 생성·분비(지방 소화 보조). 담낭 담즙 저장·방출; 췌장 인슐린(내분비) + 탄수화물·단백질·지방 소화효소(외분비); 혀 저작 보조. 암기 포인트 간 = 담즙 생성 / 담낭 = 담즙 저장",
+    "explanation": "영어 발음: ",
+    "source": "제공 PDF 4쪽 · PPT 11 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-3.png",
+    "audio": "assets/quiz16/quiz16-3-4.mp3"
+  },
+  {
+    "id": "quiz16-3-5",
+    "prompt": "소화기계 · 문제 5\n침샘 종류와 전체 침 분비량 비율",
+    "answer": "Submandibular gland(턱밑샘·악하선): 약 65–70%. Parotid gland(귀밑샘·이하선): 약 20% — 침샘 중 크기는 가장 큼. Sublingual gland(혀밑샘·설하선): 약 5%. 암기 포인트 양이 가장 많음 = 턱밑샘 / 크기가 가장 큼 = 귀밑샘",
+    "explanation": "영어 발음: Submandibular gland · Parotid gland · Sublingual gland",
+    "source": "제공 PDF 4쪽 · PPT 12 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-3.png",
+    "audio": "assets/quiz16/quiz16-3-5.mp3"
+  },
+  {
+    "id": "quiz16-5-1",
+    "prompt": "비뇨기계 · 문제 1\n주요 기관의 이름과 역할",
+    "answer": "Kidney(신장) 2개: 소변 생성 / Ureter(요관) 2개: 소변 운반 / Urinary bladder(방광) 1개: 저장 / Urethra(요도) 1개: 체외 배출. 소변 경로 신장 → 요관 → 방광 → 요도.",
+    "explanation": "영어 발음: Kidney · Ureter · Urinary bladder · Urethra",
+    "source": "제공 PDF 6쪽 · PPT 2–3, 11 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-5.png",
+    "audio": "assets/quiz16/quiz16-5-1.mp3"
+  },
+  {
+    "id": "quiz16-5-2",
+    "prompt": "비뇨기계 · 문제 2\n신장의 해부학적 구조·구성 요소",
+    "answer": "Cortex(신피질) 바깥층 / Medulla(신수질) 안쪽층 / Renal pyramid(신추체) 수질 속 피라미드 모양 / Renal pelvis(신우) 소변이 모여 요관으로 이어지는 곳. 혈액 흐름 핵심 신동맥 → 수입세동맥 → 사구체 → 수출세동맥 → 신정맥.",
+    "explanation": "영어 발음: Cortex · Medulla · Renal pyramid · Renal pelvis",
+    "source": "제공 PDF 6쪽 · PPT 5, 7 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-5.png",
+    "audio": "assets/quiz16/quiz16-5-2.mp3"
+  },
+  {
+    "id": "quiz16-5-3",
+    "prompt": "비뇨기계 · 문제 3\nNephron(네프론)의 구성 요소·구조",
+    "answer": "네프론 = 신장의 구조적·기능적 기본 단위. ① Glomerulus(사구체): 모세혈관 뭉치. ② Glomerular/Bowman’s capsule(사구체주머니): 사구체를 감싸 여과액을 받음. ③ Renal tubule(세뇨관): 재흡수·분비 관련 관 구조. 암기 포인트 강의록: 세뇨관 세부 종류보다 이 3가지를 영어로 쓰는 것이 중요",
+    "explanation": "영어 발음: Glomerulus · Glomerular/Bowman’s capsule · Renal tubule",
+    "source": "제공 PDF 6쪽 · PPT 8–9 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-5.png",
+    "audio": "assets/quiz16/quiz16-5-3.mp3"
+  },
+  {
+    "id": "quiz16-5-4",
+    "prompt": "비뇨기계 · 문제 4\n네프론 기능과 사구체 여과액 성분",
+    "answer": "소변 형성 3단계 Filtration(여과) → Reabsorption(재흡수) → Secretion(분비). 여과액 성분 물, 염류, 포도당, 요소(강의록에는 아미노산·크레아티닌 등도 언급). 정상적으로 여과되지 않음 큰 단백질, 적혈구·백혈구·혈소판.",
+    "explanation": "영어 발음: Filtration · Reabsorption · Secretion",
+    "source": "제공 PDF 6쪽 · PPT 9–10 + 강의록 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-5.png",
+    "audio": "assets/quiz16/quiz16-5-4.mp3"
+  },
+  {
+    "id": "quiz16-5-5",
+    "prompt": "비뇨기계 · 문제 5\n재흡수·분비 과정과 대표 재흡수 물질",
+    "answer": "재흡수 세뇨관 여과액 → 혈액. 물·포도당·아미노산·전해질(Na⁺, Ca²⁺, 중탄산염 등)을 다시 흡수. 분비 혈액에서 세뇨관으로 불필요한 물질을 옮겨 배출을 돕는 과정(강의록 예: 약물·독성물질·크레아티닌). 숫자 하루 여과량 약 180 L → 최종 소변 약 1–2 L.",
+    "explanation": "영어 발음: Na · Ca · L",
+    "source": "제공 PDF 6쪽 · PPT 10 + 강의록 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-5.png",
+    "audio": "assets/quiz16/quiz16-5-5.mp3"
+  },
+  {
+    "id": "quiz16-5-6",
+    "prompt": "비뇨기계 · 문제 6\n대표 비뇨기 질환의 명칭·정의",
+    "answer": "Urethritis 요도염(요도의 염증) / Cystitis 방광염(방광의 염증). Pyelonephritis 신우신염(신우와 신장의 염증) / Glomerulonephritis 사구체신염(사구체에 주로 발생하는 신장 염증). Renal failure 신부전(신장의 노폐물 여과 기능 저하). 방광염의 흔한 원인균 = E. coli(대장균).",
+    "explanation": "영어 발음: Urethritis · Cystitis · Pyelonephritis · Glomerulonephritis · Renal failure · E · coli",
+    "source": "제공 PDF 6쪽 · PPT 14–15 · 수치와 설명은 제공 자료 기준",
+    "figure": "assets/quiz16/figure-5.png",
+    "audio": "assets/quiz16/quiz16-5-6.mp3"
+  }
+]

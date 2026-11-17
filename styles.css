@@ -373,3 +373,6 @@ button:disabled { cursor: wait; opacity: 0.65; }
     padding-inline: 0;
   }
 }
+
+.answer-panel audio { width: 100%; margin: 12px 0; }
+.answer-panel img { width: 100%; height: auto; margin-top: 20px; }

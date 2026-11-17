@@ -290,3 +290,16 @@ test('Kim Yangseok long answers remain readable on a narrow screen', async ({ pa
     await page.screenshot({ path: testInfo.outputPath(`kimyangseok-${letter}.png`) });
   }
 });
+
+test('quiz16 reveals source illustrations and playable audio', async ({ page }) => {
+  await page.goto('./');
+  await openDeck(page, 'quiz16');
+  await startAll(page);
+  await page.locator('.reveal-button').click();
+  const audio = page.locator('audio');
+  await expect(audio).toBeVisible();
+  await audio.evaluate(async (el) => { el.load(); await el.play(); el.pause(); });
+  expect(await audio.evaluate(el => el.duration)).toBeGreaterThan(0);
+  await expect(page.locator('.answer-panel img')).toBeVisible();
+  expect(await page.locator('.answer-panel img').evaluate(el => el.complete && el.naturalWidth > 0)).toBeTruthy();
+});
